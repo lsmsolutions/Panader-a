@@ -18,13 +18,13 @@ const products = [
     description: "Soft and sweet coconut bread with a rich tropical flavor and moist texture. Perfect for breakfast, snacks, or dessert.<br><br><strong>Nutrition Facts:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
   },
   {
-    image: "",
+    image: "img/CoconutRoll.png",
     name: "Coconut Roll",
     category: "Snack Items",
     description: "Sweet coconut roll prepared for snack display and wholesale packaged distribution. Image pending.<br><br><strong>Product Details:</strong> Pack size 4 oz x 24."
   },
   {
-    image: "",
+    image: "img/Cinnanom.png",
     name: "Cinnamon Roll",
     category: "Snack Items",
     description: "Soft cinnamon roll designed for convenience retail and snack merchandising. Image pending.<br><br><strong>Product Details:</strong> Pack size 5 oz x 36."
@@ -36,25 +36,25 @@ const products = [
     description: "Soft and slightly sweet corn bread with a rich, golden texture and traditional flavor. Perfect for breakfast, snacks, or as a side for any meal.<br><br><strong>Nutrition Facts:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
   },
   {
-    image: "img/FruitCakeMejorada.png",
+    image: "img/FruitC_SF.png",
     name: "Jamaican Fruit Cake",
     category: "Buns & Cakes",
     description: "Rich and traditional Jamaican fruit cake made with a blend of dried fruits and spices, offering a dense texture and deep, authentic flavor. Perfect for celebrations, desserts, or special occasions.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (122g). Calories 350. Total Fat 33g (41%), Saturated Fat 14g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 210mg (9%). Total Carbohydrate 70g (26%), Dietary Fiber 3g (6%), Total Sugars 39g (includes added sugars). Protein 8g. Vitamin D 0mcg, Calcium 70mg (6%), Iron 3mg (16%), Potassium 2%."
   },
   {
-    image: "",
+    image: "img/ChristmasB.png",
     name: "Christmas Bun",
     category: "Buns & Cakes",
     description: "Traditional seasonal bun prepared for packaged distribution with a rich Jamaican-style flavor profile. Image pending.<br><br><strong>Product Details:</strong> Pack size 32 oz x 12."
   },
   {
-    image: "",
+    image: "img/EasterB.png",
     name: "Easter Bun",
     category: "Buns & Cakes",
     description: "Traditional Easter bun created for retail shelves and wholesale bakery presentation. Image pending.<br><br><strong>Product Details:</strong> Pack size 36 oz x 12."
   },
   {
-    image: "",
+    image: "img/RumRaisin.png",
     name: "Rum & Raisin Cake",
     category: "Buns & Cakes",
     description: "Rich rum and raisin cake developed for commercial bakery merchandising and wholesale distribution. Image pending.<br><br><strong>Product Details:</strong> Pack size 5 oz x 50."
@@ -108,13 +108,13 @@ const products = [
     description: "Ackee in brine prepared for traditional Caribbean cooking and retail distribution.<br><br><strong>Ingredients:</strong> Ackee, Water, Salt.<br><br><strong>Nutrition Facts:</strong> About 6 Serving Per Container. Serving size 1/4 cup (53g/1.9oz). Calories 80. Total Fat 7g (8%), Saturated Fat 2.5g (12%), Trans Fat 0g. Sodium 200mg (6%). Total Carbohydrate 0g (0%). Protein 2g. Potassium 100mg (2%), Vitamin C 25%."
   },
   {
-    image: "",
+    image: "img/Bulla.png",
     name: "Bulla 4-Pack",
     category: "Traditional",
     description: "Traditional bulla assortment including ginger, coconut, and banana flavors in a 4-pack presentation. Image pending.<br><br><strong>Product Details:</strong> 4-pack assortment."
   },
   {
-    image: "",
+    image: "img/Bammy.png",
     name: "Bammy Sticks",
     category: "Traditional",
     description: "Traditional bammy sticks prepared for Caribbean foodservice and retail distribution. Image pending.<br><br><strong>Product Details:</strong> Pack size 10 x 397g x 24."
@@ -247,6 +247,58 @@ function setupMenuToggle() {
   });
 }
 
+function setupHeroCarousel() {
+  const carousel = document.querySelector("#hero-carousel");
+  if (!carousel) return;
+
+  const composition = carousel.querySelector("#hero-composition");
+  if (!composition) return;
+
+  const heroProducts = products.filter((product) => product.image);
+  if (heroProducts.length === 0) return;
+
+  composition.innerHTML = heroProducts.map((product) => `
+    <div class="hero-slide">
+      <img src="${product.image}" alt="${product.name}">
+    </div>
+  `).join("");
+
+  const slides = Array.from(composition.querySelectorAll(".hero-slide"));
+  if (slides.length < 2) return;
+
+  let activeIndex = 0;
+  const roleSetsDesktop = ["is-far-left", "is-left", "is-center", "is-right", "is-far-right"];
+  const roleSetsTablet = ["is-left", "is-center", "is-right"];
+  const roleSetsMobile = ["is-left", "is-center", "is-right"];
+
+  const getRoleSet = () => {
+    if (window.innerWidth <= 780) return roleSetsMobile;
+    if (window.innerWidth <= 1024) return roleSetsTablet;
+    return roleSetsDesktop;
+  };
+
+  const updateComposition = () => {
+    const roles = getRoleSet();
+    slides.forEach((slide) => {
+      slide.className = "hero-slide";
+    });
+
+    const centerOffset = Math.floor(roles.length / 2);
+    roles.forEach((role, index) => {
+      const slideIndex = (activeIndex + index - centerOffset + slides.length) % slides.length;
+      slides[slideIndex].classList.add(role);
+    });
+  };
+
+  window.addEventListener("resize", updateComposition);
+  updateComposition();
+
+  setInterval(() => {
+    activeIndex = (activeIndex + 1) % slides.length;
+    updateComposition();
+  }, 3600);
+}
+
 function renderPrintCatalog() {
   const printGrid = document.querySelector("#print-grid");
   if (!printGrid) return;
@@ -276,4 +328,5 @@ function renderPrintCatalog() {
 renderCategoryFilters();
 renderProductGrid();
 setupMenuToggle();
+setupHeroCarousel();
 renderPrintCatalog();
