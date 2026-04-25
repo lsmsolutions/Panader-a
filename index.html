@@ -22,8 +22,8 @@
       <a class="brand" href="#top" aria-label="Spanish Town Caribbean Foods LLC">
         <img src="img/Logo1.png" alt="Spanish Town Caribbean Foods LLC logo" class="brand-logo">
         <div class="brand-copy">
-          <span class="brand-name">SPANISH TOWN CARIBBEAN FOODS LLC</span>
-          <span class="brand-tag">Wholesale Bakery Distribution</span>
+          <span class="brand-name" data-i18n="brand.name">SPANISH TOWN CARIBBEAN FOODS LLC</span>
+          <span class="brand-tag" data-i18n="brand.tag">Wholesale Bakery Distribution</span>
         </div>
       </a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
@@ -33,11 +33,19 @@
         <span class="sr-only">Toggle navigation</span>
       </button>
       <nav class="site-nav" id="site-menu" aria-label="Primary navigation">
-        <a href="#catalog">Products</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#about">Brand Story</a>
-        <a href="#contact">Contact</a>
-        <a class="nav-cta" href="catalog.html" target="_blank" rel="noopener">Download Catalog</a>
+        <a href="#catalog" data-i18n="nav.products">Products</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="#about" data-i18n="nav.about">Brand Story</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <a class="nav-cta" href="catalog.html" target="_blank" rel="noopener" data-i18n="nav.downloadCatalog">Download Catalog</a>
+        <div class="language-switcher" aria-label="Language" data-i18n-aria-label="language.label">
+          <button class="language-button" type="button" data-lang="en" aria-label="English" data-i18n-aria-label="language.english">
+            <img src="img/banderaBrit.jpg" alt="">
+          </button>
+          <button class="language-button" type="button" data-lang="es" aria-label="Spanish" data-i18n-aria-label="language.spanish">
+            <img src="img/banderaEsp.jpg" alt="">
+          </button>
+        </div>
       </nav>
     </div>
   </header>
@@ -52,9 +60,9 @@
         </div>
         <div class="container hero-banner-shell">
           <div class="hero-banner">
-            <p class="hero-kicker">Authentic Caribbean flavors, ready for wholesale distribution.</p>
+            <p class="hero-kicker" data-i18n="hero.kicker">Authentic Caribbean flavors, ready for wholesale distribution.</p>
             <h1 class="hero-title">
-              <span class="hero-title-line hero-title-warm">BAKERY PRODUCTS FOR WHOLESALE BUYERS</span>
+              <span class="hero-title-line hero-title-warm" data-i18n="hero.title">BAKERY PRODUCTS FOR WHOLESALE BUYERS</span>
             </h1>
           </div>
         </div>
@@ -64,7 +72,7 @@
     <section class="section catalog-section" id="catalog">
       <div class="container section-heading">
         <div>
-          <h2>Product Catalog</h2>
+          <h2 data-i18n="catalog.title">Product Catalog</h2>
         </div>
       </div>
       <div class="container catalog-filters" id="catalog-filters" aria-label="Product category filters"></div>
@@ -74,10 +82,10 @@
     <section class="section pricing-section" id="pricing">
       <div class="container pricing-shell">
         <div class="pricing-copy">
-          <p class="eyebrow">Pricing</p>
-          <h2>Simple, profitable pricing built for commercial growth.</h2>
+          <p class="eyebrow" data-i18n="pricing.eyebrow">Pricing</p>
+          <h2 data-i18n="pricing.title">Simple, profitable pricing built for commercial growth.</h2>
           <div class="pricing-rule"></div>
-          <p>
+          <p data-i18n="pricing.body">
             Competitive unit economics designed for high turnover, strong margins, and multi-location scalability across retail and foodservice channels.
           </p>
         </div>
@@ -86,83 +94,42 @@
             <table class="pricing-table">
               <thead>
                 <tr>
-                  <th>Product</th>
-                  <th>Pack Size</th>
-                  <th>Case Price</th>
+                  <th data-i18n="pricing.table.product">Product</th>
+                  <th data-i18n="pricing.table.packSize">Pack Size</th>
+                  <th data-i18n="pricing.table.casePrice">Case Price</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>Spice Bun</td>
-                  <td>4 oz x 50</td>
-                  <td class="price-value">$50</td>
-                </tr>
-                <tr>
-                  <td>Banana Bread</td>
-                  <td>4 oz x 50</td>
-                  <td class="price-value">$80</td>
-                </tr>
-                <tr>
-                  <td>Coconut Roll</td>
-                  <td>4 oz x 24</td>
-                  <td class="price-value">$48</td>
-                </tr>
-                <tr>
-                  <td>Corn Bread</td>
-                  <td>4 oz x 50</td>
-                  <td class="price-value">$50</td>
-                </tr>
-              </tbody>
+              <tbody id="pricing-table-body"></tbody>
             </table>
           </div>
           <div class="pricing-banner">
             <span class="pricing-banner-icon">✓</span>
-            <p>Volume pricing available for multi-location and chain orders. Contact us for custom quotes.</p>
+            <p data-i18n="pricing.banner">Volume pricing available for multi-location and chain orders. Contact us for custom quotes.</p>
           </div>
         </div>
       </div>
-      <div class="container pricing-highlights">
-        <article class="pricing-card">
-          <h3>Strong Margins</h3>
-          <p>Healthy margin opportunity per unit across key wholesale price tiers.</p>
-        </article>
-        <article class="pricing-card">
-          <h3>High Turnover</h3>
-          <p>Low price points support repeat purchase behavior and fast product movement.</p>
-        </article>
-        <article class="pricing-card">
-          <h3>Volume Pricing</h3>
-          <p>Flexible commercial pricing available for chains, distributors, and multi-unit buyers.</p>
-        </article>
-      </div>
+      <div class="container pricing-highlights" id="pricing-highlights"></div>
     </section>
 
     <section class="section about-section" id="about">
       <div class="container section-stack">
         <div class="section-heading section-heading-simple about-heading">
-          <p class="eyebrow">Brand Story</p>
-          <h2>Rooted in Yaad. Built for Today.</h2>
+          <p class="eyebrow" data-i18n="about.eyebrow">Brand Story</p>
+          <h2 data-i18n="about.title">Rooted in Yaad. Built for Today.</h2>
         </div>
-        <div class="about-copy about-copy-full">
-          <p>
-            Spanish Town Caribbean Foods brings authentic Jamaican flavors into convenient, ready-to-enjoy packaged goods for wholesale buyers and retail partners.
-          </p>
-          <p>
-            Inspired by generations of traditional recipes and deep roots in Spanish Town, Jamaica, the brand delivers bold, genuine flavor with a clean, commercial presentation designed for modern distribution.
-          </p>
-        </div>
+        <div class="about-copy about-copy-full" id="about-paragraphs"></div>
       </div>
     </section>
 
     <section class="section contact-section" id="contact">
       <div class="container section-stack">
         <div class="section-heading section-heading-simple contact-copy">
-          <h2>Contact</h2>
+          <h2 data-i18n="contact.title">Contact</h2>
         </div>
         <div class="contact-cards contact-cards-uniform">
           <article class="contact-card">
-            <span class="contact-label">Phone</span>
-            <a href="tel:+19548649057">(954) 864-9057</a>
+            <span class="contact-label" data-i18n="contact.phone">Phone</span>
+            <a href="tel:+19548649057" data-i18n="contact.phoneValue">(954) 864-9057</a>
           </article>
           <a
             class="contact-card contact-card-link"
@@ -171,18 +138,18 @@
             rel="noopener"
             aria-label="Send email to spaintownimports@gmail.com"
           >
-            <span class="contact-label">Email</span>
-            <span class="contact-value">spaintownimports@gmail.com</span>
+            <span class="contact-label" data-i18n="contact.email">Email</span>
+            <span class="contact-value" data-i18n="contact.emailValue">spaintownimports@gmail.com</span>
           </a>
           <article class="contact-card">
-            <span class="contact-label">Address</span>
+            <span class="contact-label" data-i18n="contact.address">Address</span>
             <a
               class="contact-value"
               href="https://www.google.com/maps/search/?api=1&query=5712+SW+25TH+STREET,+WEST+PARK,+FL+33023"
               target="_blank"
               rel="noopener"
             >
-              5712 SW 25TH STREET, WEST PARK, FL 33023
+              <span data-i18n="contact.addressValue">5712 SW 25TH STREET, WEST PARK, FL 33023</span>
             </a>
           </article>
         </div>
@@ -194,19 +161,21 @@
     <div class="container footer-shell">
       <div>
         <img src="img/Logo1.png" alt="Spanish Town Caribbean Foods LLC logo" class="footer-logo">
-        <p>
-          Spanish Town Caribbean Foods LLC.
-        </p>
+        <p><span data-i18n="brand.printName">Spanish Town Caribbean Foods LLC</span>.</p>
       </div>
       <div class="footer-links">
-        <a href="#catalog">Products</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#about">Brand Story</a>
-        <a href="#contact">Contact</a>
-        <a href="catalog.html" target="_blank" rel="noopener">Printable Catalog</a>
+        <a href="#catalog" data-i18n="nav.products">Products</a>
+        <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
+        <a href="#about" data-i18n="nav.about">Brand Story</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+        <a href="catalog.html" target="_blank" rel="noopener" data-i18n="nav.printableCatalog">Printable Catalog</a>
       </div>
     </div>
   </footer>
+
+  <button class="scroll-top-button" type="button" aria-label="Back to top" data-i18n-aria-label="scrollTop.label">
+    ↑
+  </button>
 
   <script src="script.js"></script>
 </body>

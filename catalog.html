@@ -23,15 +23,23 @@
         <div class="print-brand">
           <img src="img/Logo1.png" alt="Spanish Town Caribbean Foods LLC logo">
           <div>
-            <h1>Spanish Town Caribbean Foods LLC</h1>
+            <h1 data-i18n="brand.printName">Spanish Town Caribbean Foods LLC</h1>
           </div>
         </div>
         <div class="print-actions">
-          <a class="button button-primary" href="#" onclick="window.print(); return false;">Print / Save as PDF</a>
-          <a class="button button-secondary" href="index.html">Back to Website</a>
+          <div class="language-switcher print-language-switcher" aria-label="Language" data-i18n-aria-label="language.label">
+            <button class="language-button" type="button" data-lang="en" aria-label="English" data-i18n-aria-label="language.english">
+              <img src="img/banderaBrit.jpg" alt="">
+            </button>
+            <button class="language-button" type="button" data-lang="es" aria-label="Spanish" data-i18n-aria-label="language.spanish">
+              <img src="img/banderaEsp.jpg" alt="">
+            </button>
+          </div>
+          <a class="button button-primary" href="#" onclick="window.print(); return false;" data-i18n="print.printSave">Print / Save as PDF</a>
+          <a class="button button-secondary" href="index.html" data-i18n="print.back">Back to Website</a>
         </div>
       </div>
-      <p class="print-note">
+      <p class="print-note" data-i18n="print.note">
         Address: 5712 SW 25TH STREET, WEST PARK, FL 33023 | Phone: Tel:(954)-864-9057 | Email: spaintownimports@gmail.com
       </p>
     </div>
@@ -42,6 +50,10 @@
       <div class="container print-grid" id="print-grid" aria-live="polite"></div>
     </section>
   </main>
+
+  <button class="scroll-top-button" type="button" aria-label="Back to top" data-i18n-aria-label="scrollTop.label">
+    ↑
+  </button>
 
   <script src="script.js"></script>
 </body>
