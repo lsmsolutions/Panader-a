@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Printable Catalog | Spanish Town Caribbean Foods LLC</title>
+  <meta
+    name="description"
+    content="Printable product catalog for Spanish Town Caribbean Foods LLC."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="catalog-print">
+  <header class="print-header">
+    <div class="container">
+      <div class="print-shell">
+        <div class="print-brand">
+          <img src="img/Logo1.png" alt="Spanish Town Caribbean Foods LLC logo">
+          <div>
+            <h1>Spanish Town Caribbean Foods LLC</h1>
+          </div>
+        </div>
+        <div class="print-actions">
+          <a class="button button-primary" href="#" onclick="window.print(); return false;">Print / Save as PDF</a>
+          <a class="button button-secondary" href="index.html">Back to Website</a>
+        </div>
+      </div>
+      <p class="print-note">
+        Address: 5712 SW 25TH STREET, WEST PARK, FL 33023 | Phone: Tel:(954)-864-9057 | Email: spaintownimports@gmail.com
+      </p>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container print-grid" id="print-grid" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
