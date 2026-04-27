@@ -35,7 +35,7 @@
     "filtersLabel": "Filtros de categoría de producto",
     "featuredProducts": "Productos destacados",
     "all": "Todos",
-    "imagePending": "Imagen pendiente",
+    "imagePending": "",
     "categories": {
       "bunsCakes": "Bollos y pasteles",
       "breads": "Panes",
@@ -103,7 +103,7 @@
     "phone": "Teléfono",
     "email": "Email",
     "address": "Dirección",
-    "addressValue": "5712 SW 25TH STREET, WEST PARK, FL 33023",
+    "addressValue": "Miami, Florida",
     "phoneValue": "(954) 864-9057",
     "emailValue": "spaintownimports@gmail.com"
   },
@@ -117,7 +117,7 @@
       "id": "banana-bread",
       "image": "img/BB.png",
       "name": "Pan de banana",
-      "category": "snacks",
+      "category": "breads",
       "description": "Pan de banana húmedo y sabroso elaborado con bananas maduras. Perfecto para desayunos, meriendas o postres.<br><br><strong>Información nutricional:</strong> Tamaño de porción 85 g. Calorías 350. Grasa total 33 g (41%), grasa saturada 7 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 280 mg (12%). Carbohidratos totales 11 g (4%), fibra dietética 1 g (4%), azúcares totales 7 g (incluye azúcares añadidos). Proteína 3 g. Vitamina D 0 mcg, calcio 7 mg, hierro 1 mg, potasio 120 mg."
     },
     {
@@ -131,7 +131,7 @@
       "id": "coconut-bread",
       "image": "img/coconutMejorada.png",
       "name": "Pan de coco",
-      "category": "snacks",
+      "category": "breads",
       "description": "Pan de coco suave y dulce, con un rico sabor tropical y textura húmeda. Perfecto para desayunos, meriendas o postres.<br><br><strong>Información nutricional:</strong> Tamaño de porción 4 oz (113 g). Calorías 140. Grasa total 2.5 g (4%), grasa saturada 1 g (5%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 150 mg (6%). Carbohidratos totales 28 g (10%), fibra dietética 3 g (12%), azúcares totales 9 g (incluye 4 g de azúcares añadidos). Proteína 4 g. Vitamina A 2%, vitamina C 0%, hierro 4%, calcio 4%."
     },
     {
@@ -139,20 +139,20 @@
       "image": "img/CoconutRoll.png",
       "name": "Rollo de coco",
       "category": "snacks",
-      "description": "Rollo dulce de coco preparado para exhibición de snacks y distribución mayorista envasada. Imagen pendiente.<br><br><strong>Detalles del producto:</strong> Formato 4 oz x 24."
+      "description": "Rollo dulce de coco preparado para exhibición de snacks y distribución mayorista envasada.<br><br><strong>Detalles del producto:</strong> Formato 4 oz x 24."
     },
     {
       "id": "cinnamon-roll",
       "image": "img/CinamonRoll.png",
       "name": "Rollo de canela",
       "category": "snacks",
-      "description": "Rollo de canela suave, diseñado para tiendas de conveniencia y exhibición de snacks. Imagen pendiente.<br><br><strong>Detalles del producto:</strong> Formato 5 oz x 36."
+      "description": "Rollo de canela suave, diseñado para tiendas de conveniencia y exhibición de snacks.<br><br><strong>Detalles del producto:</strong> Formato 5 oz x 36."
     },
     {
       "id": "corn-bread",
       "image": "img/cornMejorada.png",
       "name": "Pan de maíz",
-      "category": "snacks",
+      "category": "breads",
       "description": "Pan de maíz suave y ligeramente dulce, con una textura dorada y un sabor tradicional. Perfecto para desayunos, meriendas o como acompañamiento de cualquier comida.<br><br><strong>Información nutricional:</strong> Tamaño de porción 4 oz (113 g). Calorías 140. Grasa total 2.5 g (4%), grasa saturada 1 g (5%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 150 mg (6%). Carbohidratos totales 28 g (10%), fibra dietética 3 g (12%), azúcares totales 9 g (incluye 4 g de azúcares añadidos). Proteína 4 g. Vitamina A 2%, vitamina C 0%, hierro 4%, calcio 4%."
     },
     {
@@ -163,25 +163,18 @@
       "description": "Pastel jamaicano de frutas, rico y tradicional, elaborado con una mezcla de frutas secas y especias, con textura densa y sabor profundo y auténtico. Perfecto para celebraciones, postres u ocasiones especiales.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 rebanada (122 g). Calorías 350. Grasa total 33 g (41%), grasa saturada 14 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 210 mg (9%). Carbohidratos totales 70 g (26%), fibra dietética 3 g (6%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 8 g. Vitamina D 0 mcg, calcio 70 mg (6%), hierro 3 mg (16%), potasio 2%."
     },
     {
-      "id": "christmas-bun",
-      "image": "img/ChristmasB.png",
-      "name": "Christmas Bun",
-      "category": "bunsCakes",
-      "description": "Bollo tradicional de temporada preparado para distribución envasada, con un perfil de sabor rico al estilo jamaicano. Imagen pendiente.<br><br><strong>Detalles del producto:</strong> Formato 32 oz x 12."
-    },
-    {
       "id": "easter-bun",
       "image": "img/EasterB.png",
       "name": "Easter Bun",
-      "category": "bunsCakes",
-      "description": "Bollo tradicional de Pascua creado para estanterías minoristas y presentación de panadería mayorista. Imagen pendiente.<br><br><strong>Detalles del producto:</strong> Formato 36 oz x 12."
+      "category": "traditional",
+      "description": "Bollo tradicional de Pascua creado para estanterías minoristas y presentación de panadería mayorista.<br><br><strong>Detalles del producto:</strong> Formato 36 oz x 12."
     },
     {
       "id": "rum-raisin-cake",
       "image": "img/RumRaisin.png",
       "name": "Pastel de ron y pasas",
       "category": "bunsCakes",
-      "description": "Pastel rico de ron y pasas, desarrollado para exhibición comercial de panadería y distribución mayorista. Imagen pendiente.<br><br><strong>Detalles del producto:</strong> Formato 5 oz x 50."
+      "description": "Pastel rico de ron y pasas, desarrollado para exhibición comercial de panadería y distribución mayorista.<br><br><strong>Detalles del producto:</strong> Formato 5 oz x 50."
     },
     {
       "id": "ginger-cake",
@@ -210,6 +203,13 @@
       "name": "Pan de pasas",
       "category": "breads",
       "description": "Pan de trigo con pasas, suave y sabroso, elaborado con pasas dulces y una textura rica e integral. Perfecto para desayunos, tostadas o para disfrutar con mantequilla y untables.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1/3 de pan (114 g). Calorías 180. Grasa total 3 g (4%), grasa saturada 1 g (4%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 213 mg (9%). Carbohidratos totales 35 g (12%), fibra dietética 2 g (6%), azúcares totales 7 g (incluye 3 g de azúcares añadidos). Proteína 5 g. Calcio 50 mg (5%), hierro 0.8 mg (4%), potasio 130 mg (2%)."
+    },
+    {
+      "id": "spice-bun-28oz",
+      "image": "img/SpiceB_P.png",
+      "name": "Spice Bun 28 oz",
+      "category": "breads",
+      "description": "Pan dulce especiado, suave y aromático, elaborado con una cuidada mezcla de especias que le aporta un sabor característico, ligeramente dulce. Ideal para desayunos, meriendas o para disfrutar acompañado de mantequilla o queso.<br><br><strong>Información nutricional:</strong> Tamaño de porción 53 g por rebanada de 13 mm. Aproximadamente 15 porciones. Calorías 160. Calorías de grasa 15. Grasa total 1.5 g (2%), grasa saturada 0 g, grasa trans 0 g. Colesterol 0 mg (0%). Sodio 90 mg (4%). Carbohidratos totales 34 g (11%), fibra dietética menos de 1 g (3%), azúcares totales 16 g. Proteína 3 g. Grasa poliinsaturada 0 g, grasa monoinsaturada 0.5 g. Vitamina A 0%, vitamina C 0%, hierro 8%, calcio 2%.<br><br><strong>Detalles del producto:</strong> Peso neto 794 g / 28 oz. Libre de bromato. Contiene trigo y soya."
     },
     {
       "id": "spice-bun",
@@ -244,7 +244,7 @@
       "image": "img/Bulla.png",
       "name": "Bulla paquete de 4",
       "category": "traditional",
-      "description": "Surtido tradicional de bulla con sabores de jengibre, coco y banana en presentación de 4 unidades. Imagen pendiente.<br><br><strong>Detalles del producto:</strong> Surtido de 4 unidades."
+      "description": "Surtido tradicional de bulla con sabores de jengibre, coco, banana y canela en presentación de 4 unidades.<br><br><strong>Detalles del producto:</strong> Surtido de 4 unidades."
     },
     {
       "id": "bammy-sticks",
@@ -258,14 +258,14 @@
       "image": "img/BammyRedondo.png",
       "name": "Mini Bammy",
       "category": "traditional",
-      "description": "Mini bammy jamaicano auténtico elaborado con yuca, también conocido como tortas jamaicanas de yuca o tortillas de yuca. Un acompañamiento caribeño tradicional de formato redondo, pensado para venta minorista, restauración y distribución mayorista. Imagen pendiente.<br><br><strong>Detalles del producto:</strong> Peso neto 14 oz (397 g). Auténtico jamaicano. Calidad garantizada."
+      "description": "Mini bammy jamaicano auténtico elaborado con yuca, también conocido como tortas jamaicanas de yuca o tortillas de yuca. Un acompañamiento caribeño tradicional de formato redondo, pensado para venta minorista, restauración y distribución mayorista.<br><br><strong>Detalles del producto:</strong> Peso neto 14 oz (397 g). Auténtico jamaicano. Calidad garantizada."
     },
     {
       "id": "curry-powder-spicy",
       "image": "img/Curry.jpeg",
       "name": "Curry Powder Spicy",
       "category": "traditional",
-      "description": "Curry picante jamaicano auténtico de Spanish Town Caribbean Foods, elaborado para sazonar carnes, pescados y vegetales. Producto de Jamaica. Imagen pendiente.<br><br><strong>Ingredientes:</strong> Cúrcuma, cilantro, paprika, achiote, mostaza y especias.<br><br><strong>Modo de empleo:</strong> Utilice aproximadamente 1 oz de curry por cada 1 lb de carne, pescado o vegetales. En una cacerola, caliente 1 cucharada de aceite, añada el curry y cocine brevemente. Agregue la carne o el pescado sazonado y cocine, añadiendo un poco de agua o vino para preparar una salsa sabrosa. Sirva con arroz blanco hervido y ensalada. Puede acompañarse con chutney, mango o piña.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 oz. Aproximadamente 80 porciones por envase. Calorías 13. Grasa total 4.9 g (7.5%), grasa trans 0 g, grasa saturada 0 g, colesterol 0 mg, sodio 0 mg, carbohidratos totales 17.5 g (5.8%), fibra dietética 3.3 g, azúcares 0 g, proteína 3.4 g. Vitamina A 0%, vitamina C 0%, calcio 30%, hierro 15%.<br><br><strong>Detalles del producto:</strong> Peso neto 80 oz (5 lb). Auténtico jamaicano. Producto de Jamaica."
+      "description": "Curry picante jamaicano auténtico de Spanish Town Caribbean Foods, elaborado para sazonar carnes, pescados y vegetales. Producto de Jamaica.<br><br><strong>Ingredientes:</strong> Cúrcuma, cilantro, paprika, achiote, mostaza y especias.<br><br><strong>Modo de empleo:</strong> Utilice aproximadamente 1 oz de curry por cada 1 lb de carne, pescado o vegetales. En una cacerola, caliente 1 cucharada de aceite, añada el curry y cocine brevemente. Agregue la carne o el pescado sazonado y cocine, añadiendo un poco de agua o vino para preparar una salsa sabrosa. Sirva con arroz blanco hervido y ensalada. Puede acompañarse con chutney, mango o piña.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 oz. Aproximadamente 80 porciones por envase. Calorías 13. Grasa total 4.9 g (7.5%), grasa trans 0 g, grasa saturada 0 g, colesterol 0 mg, sodio 0 mg, carbohidratos totales 17.5 g (5.8%), fibra dietética 3.3 g, azúcares 0 g, proteína 3.4 g. Vitamina A 0%, vitamina C 0%, calcio 30%, hierro 15%.<br><br><strong>Detalles del producto:</strong> Peso neto 80 oz (5 lb). Auténtico jamaicano. Producto de Jamaica."
     },
     {
       "id": "mild-jerk-seasoning",
@@ -280,6 +280,13 @@
       "name": "Hot Jerk Seasoning",
       "category": "traditional",
       "description": "Condimento jerk picante jamaicano auténtico de Spanish Town Caribbean Foods. Un sazonador intenso y picante para carnes, pescados, aves, vegetales, huevos revueltos y sopas. Producto de Jamaica.<br><br><strong>Uso sugerido:</strong> Para cada libra de carne, pescado o ave, utilice 2-3 cucharaditas de condimento. Frote y deje marinar durante aproximadamente dos horas; luego cocine a la parrilla, ase, fría o use para guisos. También puede utilizarse en vegetales con huevos revueltos y sopas.<br><br><strong>Conservación:</strong> No utilice si la banda alrededor de la tapa está rota o falta. Almacenar en un lugar fresco y seco. Refrigerar después de abrir.<br><br><strong>Ingredientes:</strong> Cebolleta, pimiento picante, sal, especias, ácido acético, tomillo, 0.033% sorbato de potasio como conservante.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 oz (28 g). Aproximadamente 136 porciones por envase. Calorías 5. Grasa total 0 g, grasa saturada 0 g, grasa trans 0 g, colesterol 0 mg, sodio 550 mg (22%), carbohidratos totales 0 g, fibra dietética 0 g, azúcares 0 g, proteína 0 g. Vitamina A 0%, vitamina C 0%, calcio 2%, hierro 10%.<br><br><strong>Detalles del producto:</strong> Peso neto 136 oz (8.5 lb) / 3.85 kg. Auténtico jamaicano. Producto de Jamaica."
+    },
+    {
+      "id": "walkerswood-mild-jerk-seasoning-10oz",
+      "image": "img/jerkM10Onz.png",
+      "name": "Walkerswood Mild Jerk Seasoning 10 oz",
+      "category": "traditional",
+      "description": "Condimento jerk jamaicano tradicional Walkerswood en sabor suave, preparado para cocina caribeña auténtica y presentación minorista.<br><br><strong>Detalles del producto:</strong> Peso neto 10 oz (280 g). Suave. Condimento jerk jamaicano tradicional."
     }
   ]
 }
