@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | Spanish Town Caribbean Foods LLC</title>
+  <meta
+    name="description"
+    content="Your quote request has been sent successfully."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    if (localStorage.getItem("language") === "es") {
+      window.location.replace("gracias.html");
+    }
+  </script>
+</head>
+<body>
+  <main class="thank-you-page">
+    <section class="thank-you-card">
+      <img src="img/Logo1.png" alt="Spanish Town Caribbean Foods LLC logo" class="thank-you-logo">
+      <p class="eyebrow">Quote request</p>
+      <h1>Thank you.</h1>
+      <p>Your quote request has been sent successfully. We will contact you shortly.</p>
+      <a class="button button-primary" href="index.html" data-home-link>Back to home</a>
+    </section>
+  </main>
+  <script>
+    document.querySelector("[data-home-link]")?.addEventListener("click", () => {
+      localStorage.setItem("language", "en");
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gracias | Spanish Town Caribbean Foods LLC</title>
+  <meta
+    name="description"
+    content="Tu solicitud de presupuesto se ha enviado correctamente."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    if (localStorage.getItem("language") === "en") {
+      window.location.replace("thank-you.html");
+    }
+  </script>
+</head>
+<body>
+  <main class="thank-you-page">
+    <section class="thank-you-card">
+      <img src="img/Logo1.png" alt="Logo de Spanish Town Caribbean Foods LLC" class="thank-you-logo">
+      <p class="eyebrow">Solicitud de presupuesto</p>
+      <h1>Gracias.</h1>
+      <p>Tu solicitud de presupuesto se ha enviado correctamente. Nos pondremos en contacto contigo pronto.</p>
+      <a class="button button-primary" href="index.html" data-home-link>Volver al inicio</a>
+    </section>
+  </main>
+  <script>
+    document.querySelector("[data-home-link]")?.addEventListener("click", () => {
+      localStorage.setItem("language", "es");
+    });
+  </script>
+</body>
+</html>

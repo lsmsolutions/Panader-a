@@ -45,48 +45,20 @@
   },
   "pricing": {
     "eyebrow": "Precios",
-    "title": "Precios sencillos y rentables pensados para el crecimiento comercial.",
-    "body": "Costes unitarios competitivos diseñados para alta rotación, buenos márgenes y escalabilidad en varias ubicaciones dentro de canales minoristas y de restauración.",
-    "table": {
-      "product": "Producto",
-      "packSize": "Formato",
-      "casePrice": "Precio por caja",
-      "rows": [
-        {
-          "product": "Spice Bun",
-          "packSize": "4 oz x 50",
-          "casePrice": "$50"
-        },
-        {
-          "product": "Pan de banana",
-          "packSize": "4 oz x 50",
-          "casePrice": "$80"
-        },
-        {
-          "product": "Rollo de coco",
-          "packSize": "4 oz x 24",
-          "casePrice": "$48"
-        },
-        {
-          "product": "Pan de maíz",
-          "packSize": "4 oz x 50",
-          "casePrice": "$50"
-        }
-      ]
-    },
+    "title": "Precios rentables pensados para el crecimiento comercial.",
     "banner": "Hay precios por volumen disponibles para pedidos de cadenas y múltiples ubicaciones. Contáctenos para cotizaciones personalizadas.",
     "cards": [
       {
-        "title": "Buenos márgenes",
-        "body": "Oportunidad de margen saludable por unidad en los principales niveles de precio mayorista."
+        "title": "Márgenes competitivos",
+        "body": "Potencial de margen atractivo en precios mayoristas."
       },
       {
         "title": "Alta rotación",
-        "body": "Los precios accesibles favorecen la recompra y el movimiento rápido del producto."
+        "body": "Precios accesibles que facilitan el movimiento constante del producto."
       },
       {
         "title": "Precios por volumen",
-        "body": "Precios comerciales flexibles para cadenas, distribuidores y compradores con varias unidades."
+        "body": "Opciones comerciales flexibles para cadenas y distribuidores."
       }
     ]
   },

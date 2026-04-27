@@ -45,48 +45,20 @@
   },
   "pricing": {
     "eyebrow": "Pricing",
-    "title": "Simple, profitable pricing built for commercial growth.",
-    "body": "Competitive unit economics designed for high turnover, strong margins, and multi-location scalability across retail and foodservice channels.",
-    "table": {
-      "product": "Product",
-      "packSize": "Pack Size",
-      "casePrice": "Case Price",
-      "rows": [
-        {
-          "product": "Spice Bun",
-          "packSize": "4 oz x 50",
-          "casePrice": "$50"
-        },
-        {
-          "product": "Banana Bread",
-          "packSize": "4 oz x 50",
-          "casePrice": "$80"
-        },
-        {
-          "product": "Coconut Roll",
-          "packSize": "4 oz x 24",
-          "casePrice": "$48"
-        },
-        {
-          "product": "Corn Bread",
-          "packSize": "4 oz x 50",
-          "casePrice": "$50"
-        }
-      ]
-    },
+    "title": "Profitable pricing built for commercial growth.",
     "banner": "Volume pricing available for multi-location and chain orders. Contact us for custom quotes.",
     "cards": [
       {
-        "title": "Strong Margins",
-        "body": "Healthy margin opportunity per unit across key wholesale price tiers."
+        "title": "Competitive Margins",
+        "body": "Attractive margin potential at wholesale pricing."
       },
       {
         "title": "High Turnover",
-        "body": "Low price points support repeat purchase behavior and fast product movement."
+        "body": "Accessible price points support steady product movement."
       },
       {
         "title": "Volume Pricing",
-        "body": "Flexible commercial pricing available for chains, distributors, and multi-unit buyers."
+        "body": "Flexible commercial options for chains and distributors."
       }
     ]
   },

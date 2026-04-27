@@ -84,31 +84,17 @@
         <div class="pricing-copy">
           <p class="eyebrow" data-i18n="pricing.eyebrow">Pricing</p>
           <h2 data-i18n="pricing.title">Simple, profitable pricing built for commercial growth.</h2>
-          <div class="pricing-rule"></div>
-          <p data-i18n="pricing.body">
-            Competitive unit economics designed for high turnover, strong margins, and multi-location scalability across retail and foodservice channels.
-          </p>
-        </div>
-        <div class="pricing-panel">
-          <div class="pricing-table-wrap">
-            <table class="pricing-table">
-              <thead>
-                <tr>
-                  <th data-i18n="pricing.table.product">Product</th>
-                  <th data-i18n="pricing.table.packSize">Pack Size</th>
-                  <th data-i18n="pricing.table.casePrice">Case Price</th>
-                </tr>
-              </thead>
-              <tbody id="pricing-table-body"></tbody>
-            </table>
-          </div>
           <div class="pricing-banner">
             <span class="pricing-banner-icon">✓</span>
             <p data-i18n="pricing.banner">Volume pricing available for multi-location and chain orders. Contact us for custom quotes.</p>
           </div>
+          <div class="pricing-rule"></div>
         </div>
       </div>
       <div class="container pricing-highlights" id="pricing-highlights"></div>
+      <div class="container quote-cta">
+        <button class="button button-primary" type="button" id="quote-open-button">Request Quote</button>
+      </div>
     </section>
 
     <section class="section about-section" id="about">
@@ -176,6 +162,71 @@
   <button class="scroll-top-button" type="button" aria-label="Back to top" data-i18n-aria-label="scrollTop.label">
     ↑
   </button>
+
+  <div class="quote-modal" id="quote-modal" hidden>
+    <div class="quote-modal-backdrop" data-quote-close></div>
+    <div class="quote-dialog" role="dialog" aria-modal="true" aria-labelledby="quote-title">
+      <button class="quote-close-button" type="button" id="quote-close-button" aria-label="Close">×</button>
+
+      <div class="quote-view" id="quote-form-view">
+        <p class="eyebrow" id="quote-eyebrow">Request Quote</p>
+        <h2 id="quote-title">Request Quote</h2>
+        <p class="quote-intro" id="quote-intro"></p>
+
+        <form class="quote-form" id="quote-form" action="https://formspree.io/f/mlgakqkk" method="POST" novalidate>
+          <!-- Add your Formspree endpoint to the action attribute above when it is ready. -->
+          <input type="hidden" name="Products" id="quote-products-summary">
+
+          <div class="quote-field-grid">
+            <label class="quote-field">
+              <span id="quote-business-label">Business Name</span>
+              <input type="text" name="Business Name" id="quote-business-name" required>
+            </label>
+            <label class="quote-field">
+              <span id="quote-contact-label">Contact Name</span>
+              <input type="text" name="Contact Name" id="quote-contact-name" required>
+            </label>
+            <label class="quote-field">
+              <span id="quote-email-label">Email</span>
+              <input type="email" name="Email" id="quote-email" required>
+            </label>
+            <label class="quote-field">
+              <span id="quote-phone-label">Phone</span>
+              <input type="tel" name="Phone" id="quote-phone">
+            </label>
+          </div>
+
+          <div class="quote-products-heading">
+            <h3 id="quote-products-title">Products</h3>
+            <p id="quote-products-help"></p>
+          </div>
+          <div class="quote-products" id="quote-products"></div>
+
+          <label class="quote-field quote-notes-field">
+            <span id="quote-notes-label">Notes</span>
+            <textarea name="Notes" id="quote-notes" rows="4"></textarea>
+          </label>
+
+          <p class="quote-error" id="quote-error" role="alert"></p>
+
+          <div class="quote-actions">
+            <button class="button button-primary" type="button" id="quote-review-button">Review Request</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="quote-view" id="quote-review-view" hidden>
+        <p class="eyebrow" id="quote-review-eyebrow">Review</p>
+        <h2 id="quote-review-title">Review Request</h2>
+        <div class="quote-review-summary" id="quote-review-summary"></div>
+        <p class="quote-error" id="quote-submit-status" role="status"></p>
+        <div class="quote-actions quote-actions-split">
+          <button class="button button-secondary" type="button" id="quote-edit-button">Back / Edit Selection</button>
+          <button class="button button-primary" type="button" id="quote-submit-button">Send Request</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
