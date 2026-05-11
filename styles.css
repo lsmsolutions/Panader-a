@@ -904,14 +904,82 @@ h3 {
 
 .quote-dialog {
   position: relative;
-  width: min(1080px, 100%);
-  max-height: min(88vh, 920px);
+  width: min(1180px, 100%);
+  max-height: min(92vh, 960px);
   overflow: auto;
-  padding: clamp(1.25rem, 3vw, 2rem);
+  padding: clamp(1rem, 2.5vw, 1.8rem);
   border-radius: 22px;
   background: linear-gradient(180deg, #fffaf2, #fff7df);
   border: 1px solid rgba(25, 50, 37, 0.14);
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.26);
+}
+
+.quote-confirm[hidden] {
+  display: none;
+}
+
+.quote-confirm {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 12;
+}
+
+.quote-confirm-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(12, 28, 18, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.quote-confirm-dialog {
+  position: relative;
+  width: min(420px, 90%);
+  background: #fffdf5;
+  border: 1px solid rgba(25, 50, 37, 0.14);
+  border-radius: 20px;
+  padding: 1.4rem 1.25rem;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.18);
+  z-index: 1;
+}
+
+.quote-confirm-dialog h3 {
+  margin: 0 0 0.75rem;
+  color: var(--green-deep);
+  font-size: 1.25rem;
+}
+
+.quote-confirm-dialog p {
+  margin: 0 0 1.25rem;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.quote-confirm-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.quote-confirm-actions .button {
+  min-width: 130px;
+}
+
+@media (max-width: 780px) {
+  .quote-confirm-dialog {
+    width: min(92%, 380px);
+  }
+
+  .quote-confirm-actions {
+    flex-direction: column;
+  }
+
+  .quote-confirm-actions .button {
+    width: 100%;
+  }
 }
 
 .quote-close-button {
@@ -945,7 +1013,7 @@ h3 {
 
 .quote-form {
   display: grid;
-  gap: 1.4rem;
+  gap: 0.65rem;
 }
 
 .quote-field-grid {
@@ -974,6 +1042,8 @@ h3 {
 
 .quote-field textarea {
   resize: vertical;
+  min-height: 100px;
+  max-height: 140px;
 }
 
 .quote-products-heading {
@@ -987,23 +1057,56 @@ h3 {
   font-size: 1.2rem;
 }
 
-.quote-products {
-  max-height: 340px;
-  overflow: auto;
+.quote-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 1rem 1rem 0.5rem;
+}
+
+.quote-filter {
   border: 1px solid rgba(25, 50, 37, 0.12);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.95);
+  color: var(--green-deep);
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.quote-filter.is-active {
+  background: var(--green-deep);
+  color: #fff;
+  border-color: transparent;
+}
+
+.quote-products {
+  max-height: min(70vh, 760px);
+  min-height: 440px;
+  overflow: auto;
+  border: 1px solid rgba(25, 50, 37, 0.16);
   border-radius: 18px;
-  background: rgba(255, 255, 255, 0.58);
+  background: rgba(255, 255, 255, 0.78);
 }
 
 .quote-product-table {
-  min-width: 820px;
+  width: 100%;
+  min-width: 0;
+}
+
+.quote-notes-field {
+  margin-top: 0;
+}
+
+.quote-actions {
+  margin-top: 0;
 }
 
 .quote-product-row {
   display: grid;
-  grid-template-columns: 44px minmax(280px, 1fr) 180px 280px;
+  grid-template-columns: 44px minmax(170px, 1fr) 160px minmax(210px, 1.4fr);
   align-items: center;
-  border-bottom: 1px solid rgba(25, 50, 37, 0.1);
+  border-bottom: 1px solid rgba(25, 50, 37, 0.12);
 }
 
 .quote-product-row:last-child {
@@ -1014,16 +1117,25 @@ h3 {
   position: sticky;
   top: 0;
   z-index: 1;
-  background: #fff8e9;
-  color: var(--green-deep);
+  background: rgba(220, 243, 221, 0.97);
+  color: #24521f;
   font-family: "Outfit", sans-serif;
   font-weight: 800;
+  border-bottom: 2px solid rgba(37, 85, 35, 0.18);
 }
 
 .quote-product-row > * {
-  min-height: 72px;
-  padding: 0.85rem;
+  min-height: 64px;
+  padding: 0.7rem 0.8rem;
   border-right: 1px solid rgba(25, 50, 37, 0.08);
+}
+
+.quote-product-row > *:nth-child(3),
+.quote-product-row > *:nth-child(4),
+.quote-product-head span:nth-child(3),
+.quote-product-head span:nth-child(4) {
+  text-align: center;
+  justify-content: center;
 }
 
 .quote-product-row > *:last-child {
@@ -1086,6 +1198,7 @@ h3 {
 .quote-case-controls select,
 .quote-case-controls input {
   width: 100%;
+  min-width: 0;
   border: 1px solid rgba(25, 50, 37, 0.16);
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.9);
@@ -1554,8 +1667,67 @@ h3 {
     padding-top: 0.25rem;
   }
 
+  .quote-product-table {
+    min-width: 0;
+  }
+
+  .quote-product-head {
+    display: grid;
+  }
+
+  .quote-product-row {
+    grid-template-columns: 44px minmax(130px, 1fr) 130px minmax(180px, 1.4fr);
+    padding: 0.7rem 0;
+  }
+
+  .quote-product-row > * {
+    min-height: auto;
+    padding: 0.6rem 0.75rem;
+    border-right: 1px solid rgba(25, 50, 37, 0.08);
+  }
+
+  .quote-product-info,
+  .quote-units-cell,
+  .quote-case-controls {
+    grid-column: auto;
+  }
+
+  .quote-case-controls {
+    grid-template-columns: minmax(90px, 1fr) auto minmax(120px, 1.4fr);
+    gap: 0.45rem;
+  }
+
+  .quote-case-controls select,
+  .quote-case-controls input {
+    min-width: 0;
+  }
+
+  .quote-or {
+    text-align: center;
+  }
+
+  .quote-review-product {
+    grid-template-columns: 56px 1fr;
+  }
+
+  .quote-review-product span {
+    grid-column: 2;
+  }
+
+  .quote-dialog {
+    max-height: 92vh;
+  }
+
+  .quote-actions,
+  .quote-actions-split {
+    justify-content: stretch;
+  }
+
+  .quote-actions .button {
+    width: 100%;
+  }
+
   .scroll-top-button {
-    position: fixed;
     right: 1rem;
     bottom: 1rem;
     z-index: 30;

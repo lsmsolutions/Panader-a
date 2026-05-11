@@ -1,21 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Spanish Town Caribbean Foods LLC | Wholesale Bread Distribution</title>
-  <meta
-    name="description"
-    content="Spanish Town Caribbean Foods LLC is a Miami-area wholesale distributor of Caribbean bakery products for retail and foodservice partners."
-  >
+  <meta name="description"
+    content="Spanish Town Caribbean Foods LLC is a Miami-area wholesale distributor of Caribbean bakery products for retail and foodservice partners.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Outfit:wght@500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
+    rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <header class="site-header">
     <div class="container nav-shell">
@@ -37,12 +36,19 @@
         <a href="#pricing" data-i18n="nav.pricing">Pricing</a>
         <a href="#about" data-i18n="nav.about">Brand Story</a>
         <a href="#contact" data-i18n="nav.contact">Contact</a>
-        <a class="nav-cta" href="catalog.html" target="_blank" rel="noopener" data-i18n="nav.downloadCatalog">Download Catalog</a>
+        <button class="button button-primary nav-quote-button" type="button" id="quote-open-button-nav"
+          data-i18n="nav.requestQuote">
+          Request Quote
+        </button>
+        <a class="nav-cta" href="catalog.html" target="_blank" rel="noopener" data-i18n="nav.downloadCatalog">Download
+          Catalog</a>
         <div class="language-switcher" aria-label="Language" data-i18n-aria-label="language.label">
-          <button class="language-button" type="button" data-lang="en" aria-label="English" data-i18n-aria-label="language.english">
+          <button class="language-button" type="button" data-lang="en" aria-label="English"
+            data-i18n-aria-label="language.english">
             <img src="img/banderaBrit.jpg" alt="">
           </button>
-          <button class="language-button" type="button" data-lang="es" aria-label="Spanish" data-i18n-aria-label="language.spanish">
+          <button class="language-button" type="button" data-lang="es" aria-label="Spanish"
+            data-i18n-aria-label="language.spanish">
             <img src="img/banderaEsp.jpg" alt="">
           </button>
         </div>
@@ -60,9 +66,11 @@
         </div>
         <div class="container hero-banner-shell">
           <div class="hero-banner">
-            <p class="hero-kicker" data-i18n="hero.kicker">Authentic Caribbean flavors, ready for wholesale distribution.</p>
+            <p class="hero-kicker" data-i18n="hero.kicker">Authentic Caribbean flavors, ready for wholesale
+              distribution.</p>
             <h1 class="hero-title">
-              <span class="hero-title-line hero-title-warm" data-i18n="hero.title">BAKERY PRODUCTS FOR WHOLESALE BUYERS</span>
+              <span class="hero-title-line hero-title-warm" data-i18n="hero.title">BAKERY PRODUCTS FOR WHOLESALE
+                BUYERS</span>
             </h1>
           </div>
         </div>
@@ -86,7 +94,8 @@
           <h2 data-i18n="pricing.title">Simple, profitable pricing built for commercial growth.</h2>
           <div class="pricing-banner">
             <span class="pricing-banner-icon">✓</span>
-            <p data-i18n="pricing.banner">Volume pricing available for multi-location and chain orders. Contact us for custom quotes.</p>
+            <p data-i18n="pricing.banner">Volume pricing available for multi-location and chain orders. Contact us for
+              custom quotes.</p>
           </div>
           <div class="pricing-rule"></div>
         </div>
@@ -117,24 +126,17 @@
             <span class="contact-label" data-i18n="contact.phone">Phone</span>
             <a href="tel:+19548649057" data-i18n="contact.phoneValue">(954) 864-9057</a>
           </article>
-          <a
-            class="contact-card contact-card-link"
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=spaintownimports@gmail.com"
-            target="_blank"
-            rel="noopener"
-            aria-label="Send email to spaintownimports@gmail.com"
-          >
+          <a class="contact-card contact-card-link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=spaintownimports@gmail.com" target="_blank"
+            rel="noopener" aria-label="Send email to spaintownimports@gmail.com">
             <span class="contact-label" data-i18n="contact.email">Email</span>
             <span class="contact-value" data-i18n="contact.emailValue">spaintownimports@gmail.com</span>
           </a>
           <article class="contact-card">
             <span class="contact-label" data-i18n="contact.address">Address</span>
-            <a
-              class="contact-value"
+            <a class="contact-value"
               href="https://www.google.com/maps/search/?api=1&query=5712+SW+25TH+STREET,+WEST+PARK,+FL+33023"
-              target="_blank"
-              rel="noopener"
-            >
+              target="_blank" rel="noopener">
               <span data-i18n="contact.addressValue">5712 SW 25TH STREET, WEST PARK, FL 33023</span>
             </a>
           </article>
@@ -174,7 +176,6 @@
         <p class="quote-intro" id="quote-intro"></p>
 
         <form class="quote-form" id="quote-form" action="https://formspree.io/f/mlgakqkk" method="POST" novalidate>
-          <!-- Add your Formspree endpoint to the action attribute above when it is ready. -->
           <input type="hidden" name="Products" id="quote-products-summary">
 
           <div class="quote-field-grid">
@@ -225,9 +226,22 @@
           <button class="button button-primary" type="button" id="quote-submit-button">Send Request</button>
         </div>
       </div>
+
+      <div class="quote-confirm" id="quote-confirm" hidden>
+        <div class="quote-confirm-backdrop" data-quote-confirm-close></div>
+        <div class="quote-confirm-dialog" role="dialog" aria-modal="true" aria-labelledby="quote-confirm-title">
+          <h3 id="quote-confirm-title" data-i18n="quote.confirm.title">Leave quote request?</h3>
+          <p id="quote-confirm-message" data-i18n="quote.confirm.message">You have unsaved quote information. If you leave now, your selections will be lost.</p>
+          <div class="quote-confirm-actions">
+            <button class="button button-secondary" type="button" id="quote-confirm-continue-button" data-i18n="quote.confirm.continue">Continue Editing</button>
+            <button class="button button-primary" type="button" id="quote-confirm-leave-button" data-i18n="quote.confirm.leave">Leave Form</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
   <script src="script.js"></script>
 </body>
+
 </html>

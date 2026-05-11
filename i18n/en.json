@@ -18,6 +18,14 @@
     "downloadCatalog": "Download Catalog",
     "printableCatalog": "Printable Catalog"
   },
+  "quote": {
+    "confirm": {
+      "title": "Leave quote request?",
+      "message": "You have unsaved quote information. If you leave now, your selections will be lost.",
+      "continue": "Continue Editing",
+      "leave": "Leave Form"
+    }
+  },
   "language": {
     "label": "Language",
     "english": "English",

@@ -18,6 +18,14 @@
     "downloadCatalog": "Descargar catálogo",
     "printableCatalog": "Catálogo imprimible"
   },
+  "quote": {
+    "confirm": {
+      "title": "¿Salir de la solicitud de presupuesto?",
+      "message": "Tienes información de presupuesto sin guardar. Si sales ahora, se perderán tus selecciones.",
+      "continue": "Seguir editando",
+      "leave": "Salir del formulario"
+    }
+  },
   "language": {
     "label": "Idioma",
     "english": "Inglés",
