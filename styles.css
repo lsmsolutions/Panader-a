@@ -422,9 +422,7 @@ h3 {
   color: var(--green-deep);
 }
 
-.scroll-top-button {
-  display: none;
-}
+
 
 .product-index {
   display: inline-flex;
@@ -1727,36 +1725,6 @@ h3 {
     width: 100%;
   }
 
-  .scroll-top-button {
-    right: 1rem;
-    bottom: 1rem;
-    z-index: 30;
-    width: 48px;
-    height: 48px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 0;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--green) 0%, var(--green-deep) 100%);
-    color: #fff;
-    box-shadow: 0 14px 28px rgba(13, 107, 36, 0.28);
-    font-family: "Outfit", sans-serif;
-    font-size: 1.45rem;
-    font-weight: 800;
-    line-height: 1;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(12px);
-    transition: opacity 180ms ease, transform 180ms ease;
-  }
-
-  .scroll-top-button.is-visible {
-    opacity: 1;
-    pointer-events: auto;
-    transform: translateY(0);
-  }
-
   .hero-grid,
   .section-heading,
   .pricing-shell,
@@ -1871,6 +1839,40 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
   }
+
+  
+.scroll-top-button {
+  position: fixed !important;
+  right: 1rem !important;
+  bottom: 1rem !important;
+  z-index: 99999 !important;
+  width: 48px !important;
+  height: 48px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+  background: linear-gradient(135deg, var(--green) 0%, var(--green-deep) 100%) !important;
+  color: #fff !important;
+  box-shadow: 0 14px 28px rgba(13, 107, 36, 0.28) !important;
+  font-family: "Outfit", sans-serif !important;
+  font-size: 1.45rem !important;
+  font-weight: 800 !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+  transform: translateY(12px) !important;
+  transition: opacity 180ms ease, transform 180ms ease, visibility 180ms ease !important;
+}
+
+.scroll-top-button.is-visible {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  transform: translateY(0) !important;
+}
+
 }
 
 @media print {

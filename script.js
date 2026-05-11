@@ -929,12 +929,13 @@ function setupLanguageSwitcher() {
   });
 }
 
+/*
 function setupScrollTopButton() {
   const scrollTopButton = document.querySelector(".scroll-top-button");
   if (!scrollTopButton) return;
 
   const updateVisibility = () => {
-    scrollTopButton.classList.toggle("is-visible", window.scrollY > 520);
+    scrollTopButton.classList.toggle("is-visible", window.scrollY > 120);
   };
 
   scrollTopButton.addEventListener("click", () => {
@@ -945,6 +946,37 @@ function setupScrollTopButton() {
   });
 
   window.addEventListener("scroll", updateVisibility, { passive: true });
+  updateVisibility();
+}*/
+
+function setupScrollTopButton() {
+  const scrollTopButton = document.querySelector(".scroll-top-button");
+  if (!scrollTopButton) return;
+
+  const updateVisibility = () => {
+    const scrollTop =
+      window.pageYOffset ||
+      document.documentElement.scrollTop ||
+      document.body.scrollTop ||
+      0;
+
+    if (scrollTop > 80) {
+      scrollTopButton.classList.add("is-visible");
+    } else {
+      scrollTopButton.classList.remove("is-visible");
+    }
+  };
+
+  scrollTopButton.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
+  window.addEventListener("scroll", updateVisibility, { passive: true });
+  document.addEventListener("scroll", updateVisibility, { passive: true });
+
   updateVisibility();
 }
 
