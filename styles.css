@@ -1027,6 +1027,23 @@ h3 {
   font-weight: 700;
 }
 
+.quote-label-text {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.2rem;
+}
+
+.quote-required-marker,
+.quote-required-note {
+  color: #9f2d13;
+}
+
+.quote-required-note {
+  margin: -0.25rem 0 0.15rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
 .quote-field input,
 .quote-field textarea {
   width: 100%;

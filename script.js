@@ -62,7 +62,8 @@ const quoteCopy = {
     selectedProducts: "Selected Products",
     noNotes: "No notes provided.",
     confirmCloseMessage: "You have unsaved quote information. Do you want to close this form?",
-    requiredError: "Please complete all required customer fields.",
+    requiredNote: "* Required fields",
+    requiredError: "Please complete all required fields.",
     emailError: "Please enter a valid email address.",
     productError: "Select at least one product.",
     quantityError: "Each selected product must have a case quantity greater than 0.",
@@ -99,7 +100,8 @@ const quoteCopy = {
     selectedProducts: "Productos seleccionados",
     noNotes: "Sin notas.",
     confirmCloseMessage: "Tienes información de presupuesto sin guardar. ¿Quieres cerrar este formulario?",
-    requiredError: "Completa todos los campos obligatorios del cliente.",
+    requiredNote: "* Campos obligatorios",
+    requiredError: "Completa todos los campos obligatorios.",
     emailError: "Introduce un email válido.",
     productError: "Selecciona al menos un producto.",
     quantityError: "Cada producto seleccionado debe tener una cantidad de cajas mayor que 0.",
@@ -302,6 +304,7 @@ function renderQuoteForm() {
   setText("quote-contact-label", labels.contactName);
   setText("quote-email-label", labels.email);
   setText("quote-phone-label", labels.phone);
+  setText("quote-required-note", labels.requiredNote);
   setText("quote-notes-label", labels.notes);
   setText("quote-products-title", labels.products);
   setText("quote-products-help", labels.productsHelp);
@@ -416,21 +419,38 @@ function renderQuoteForm() {
   });
 }
 function getQuoteSelection() {
-  const elements = getQuoteElements();
-  if (!elements.products) return [];
+  syncVisibleQuoteRows();
 
-  return Array.from(elements.products.querySelectorAll(".quote-product-row:not(.quote-product-head)"))
-    .map((row) => {
-      const checkbox = row.querySelector(".quote-product-checkbox");
-      const product = i18n.products.find((item) => item.id === checkbox.value);
+  return Object.entries(quoteSelectionState)
+    .filter(([, state]) => state.selected)
+    .map(([productId, state]) => {
+      const product = i18n.products.find((item) => item.id === productId);
+      const customValue = Number(state.customValue);
+      const selectValue = Number(state.selectValue);
 
       return {
         product,
-        selected: checkbox.checked,
-        cases: getQuoteCaseValue(row)
+        selected: true,
+        cases: customValue > 0 ? customValue : selectValue
       };
     })
-    .filter((item) => item.selected);
+    .filter((item) => item.product);
+}
+
+function syncVisibleQuoteRows() {
+  const elements = getQuoteElements();
+  if (!elements.products) return;
+
+  elements.products.querySelectorAll(".quote-product-row:not(.quote-product-head)").forEach((row) => {
+    const productId = row.dataset.productId;
+    const checkbox = row.querySelector(".quote-product-checkbox");
+    const select = row.querySelector(".quote-case-select");
+    const custom = row.querySelector(".quote-custom-input");
+
+    if (productId && checkbox && select && custom) {
+      updateQuoteSelectionState(productId, checkbox, select, custom);
+    }
+  });
 }
 
 function resetQuoteForm() {
@@ -516,7 +536,7 @@ function validateQuote() {
   const selection = getQuoteSelection();
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-  if (!customer.businessName || !customer.contactName || !customer.email) {
+  if (!customer.businessName || !customer.contactName || !customer.email || !customer.phone) {
     return { valid: false, message: labels.requiredError };
   }
 
