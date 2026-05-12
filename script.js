@@ -1,6 +1,6 @@
 const DEFAULT_LANGUAGE = "en";
 const SUPPORTED_LANGUAGES = ["en", "es"];
-const categoryOrder = ["breads", "bunsCakes", "snacks", "traditional"];
+const categoryOrder = ["breads", "bunsCakes", "snacks", "seasonings", "traditional"];
 // Change these paths if the custom Formspree redirect pages move.
 const quoteRedirectPaths = {
   en: "thank-you.html",

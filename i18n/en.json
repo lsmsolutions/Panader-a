@@ -47,6 +47,7 @@
     "categories": {
       "bunsCakes": "Buns & Cakes",
       "breads": "Breads",
+      "seasonings": "Seasonings",
       "snacks": "Snack Items",
       "traditional": "Traditional"
     }
@@ -98,98 +99,98 @@
       "image": "img/BB.png",
       "name": "Banana Bread",
       "category": "breads",
-      "description": "Moist and flavorful banana bread made with ripe bananas. Perfect for breakfast, snacks, or dessert.<br><br><strong>Nutrition Facts:</strong> Serving Size 85g. Calories 350. Total Fat 33g (41%), Saturated Fat 7g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 280mg (12%). Total Carbohydrate 11g (4%), Dietary Fiber 1g (4%), Total Sugars 7g (includes added sugars). Protein 3g. Vitamin D 0mcg, Calcium 7mg, Iron 1mg, Potassium 120mg."
+      "description": "Moist, rich, and naturally sweet.Made with ripe bananas for that soft texture and full flavor. Feels like something you grab in the morning without thinking twice<br><br><strong>Nutrition Facts:</strong> Serving Size 85g. Calories 350. Total Fat 33g (41%), Saturated Fat 7g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 280mg (12%). Total Carbohydrate 11g (4%), Dietary Fiber 1g (4%), Total Sugars 7g (includes added sugars). Protein 3g. Vitamin D 0mcg, Calcium 7mg, Iron 1mg, Potassium 120mg."
     },
     {
       "id": "hardough-bread",
       "image": "img/BreadMejorado.png",
       "name": "Hardough Bread",
       "category": "breads",
-      "description": "Soft and freshly sliced hard dough bread with a light texture, perfect for sandwiches, toast, or everyday meals.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice. Calories 120. Total Fat 1g (1%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 180mg (8%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes added sugars). Protein 4g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.6mg (8%), Potassium 40mg (0%)."
+      "description": "Soft, fresh, and a Jamaican staple.That classic hardough—light, fluffy, and always ready. Whether it’s toast in the morning or something quick with ackee and saltfish, it just works<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice. Calories 120. Total Fat 1g (1%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 180mg (8%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes added sugars). Protein 4g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.6mg (8%), Potassium 40mg (0%)."
     },
     {
       "id": "coconut-bread",
       "image": "img/coconutMejorada.png",
       "name": "Coconut Bread",
       "category": "breads",
-      "description": "Soft and sweet coconut bread with a rich tropical flavor and moist texture. Perfect for breakfast, snacks, or dessert.<br><br><strong>Nutrition Facts:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
+      "description": "Soft, slightly sweet, and full of island flavor.Moist with that real coconut taste—one of those breads that doesn’t need much, just a quiet moment and a good cup of coffee.<br><br><strong>Nutrition Facts:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
     },
     {
       "id": "coconut-roll",
       "image": "img/CoconutRoll.png",
       "name": "Coconut Roll",
       "category": "snacks",
-      "description": "Sweet coconut roll prepared for snack display and wholesale packaged distribution.<br><br><strong>Product Details:</strong> Pack size 4 oz x 24."
+      "description": "Sweet, soft, and easy to grab.A classic coconut-filled roll with that familiar taste—something you pick up and it’s gone before you even realize.<br><br><strong>Product Details:</strong> Pack size 4 oz x 24."
     },
     {
       "id": "cinnamon-roll",
       "image": "img/CinamonRoll.png",
       "name": "Cinnamon Roll",
       "category": "snacks",
-      "description": "Soft cinnamon roll designed for convenience retail and snack merchandising.<br><br><strong>Product Details:</strong> Pack size 5 oz x 36."
+      "description": "Soft, sweet, and full of spice.Comforting and familiar, with that warm cinnamon flavor all the way through.<br><br><strong>Product Details:</strong> Pack size 5 oz x 36."
     },
     {
       "id": "corn-bread",
       "image": "img/cornMejorada.png",
       "name": "Corn Bread",
       "category": "breads",
-      "description": "Soft and slightly sweet corn bread with a rich, golden texture and traditional flavor. Perfect for breakfast, snacks, or as a side for any meal.<br><br><strong>Nutrition Facts:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
+      "description": "Golden, soft, and just the right sweetness.Warm, simple, and familiar. The kind of thing that always finds its place on the table..<br><br><strong>Nutrition Facts:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
     },
     {
       "id": "jamaican-fruit-cake",
       "image": "img/FruitC_SF.png",
       "name": "Jamaican Fruit Cake",
       "category": "bunsCakes",
-      "description": "Rich and traditional Jamaican fruit cake made with a blend of dried fruits and spices, offering a dense texture and deep, authentic flavor. Perfect for celebrations, desserts, or special occasions.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (122g). Calories 350. Total Fat 33g (41%), Saturated Fat 14g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 210mg (9%). Total Carbohydrate 70g (26%), Dietary Fiber 3g (6%), Total Sugars 39g (includes added sugars). Protein 8g. Vitamin D 0mcg, Calcium 70mg (6%), Iron 3mg (16%), Potassium 2%."
+      "description": "Rich, dense, and full of real flavor.Packed with fruits and spices for that deep, unmistakable taste. The kind of cake that shows up for celebrations and doesn’t disappoint<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (122g). Calories 350. Total Fat 33g (41%), Saturated Fat 14g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 210mg (9%). Total Carbohydrate 70g (26%), Dietary Fiber 3g (6%), Total Sugars 39g (includes added sugars). Protein 8g. Vitamin D 0mcg, Calcium 70mg (6%), Iron 3mg (16%), Potassium 2%."
     },
     {
       "id": "easter-bun",
       "image": "img/EasterB.png",
       "name": "Easter Bun",
       "category": "traditional",
-      "description": "Traditional Easter bun created for retail shelves and wholesale bakery presentation.<br><br><strong>Product Details:</strong> Pack size 36 oz x 12."
+      "description": "A true Jamaican tradition.Rich, spiced, and slightly sweet. You already know how this goes—cut a slice, add the cheese, and you’re good.<br><br><strong>Product Details:</strong> Pack size 36 oz x 12."
     },
     {
       "id": "rum-raisin-cake",
       "image": "img/RumRaisin.png",
       "name": "Rum & Raisin Cake",
       "category": "bunsCakes",
-      "description": "Rich rum and raisin cake developed for commercial bakery merchandising and wholesale distribution.<br><br><strong>Product Details:</strong> Pack size 5 oz x 50."
+      "description": "Bold flavor with a smooth finish.Moist, rich, and full-bodied with that classic combination done right.<br><br><strong>Product Details:</strong> Pack size 5 oz x 50."
     },
     {
       "id": "ginger-cake",
       "image": "img/GingerMejorada .png",
       "name": "Ginger Cake",
       "category": "bunsCakes",
-      "description": "Rich and aromatic ginger cake with a warm, spiced flavor and soft, moist texture. Perfect for desserts, snacks, or enjoying with coffee or tea.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (142g). Calories 580. Total Fat 26g (33%), Saturated Fat 7g (35%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 200mg (9%). Total Carbohydrate 79g (29%), Dietary Fiber 2g (7%), Total Sugars 39g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 60mg (4%), Iron 2mg (10%), Potassium 4%."
+      "description": "Warm, soft, and nicely spiced.A gentle ginger kick with a soft texture—easy to enjoy, especially when you just want something simple and good.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (142g). Calories 580. Total Fat 26g (33%), Saturated Fat 7g (35%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 200mg (9%). Total Carbohydrate 79g (29%), Dietary Fiber 2g (7%), Total Sugars 39g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 60mg (4%), Iron 2mg (10%), Potassium 4%."
     },
     {
       "id": "multi-grand-hardough",
       "image": "img/multimejjorado.png",
       "name": "Multi Grand Hardough",
       "category": "breads",
-      "description": "Nutritious multi-grain hard dough bread made with a blend of 12 grains and seeds, offering a hearty texture and rich, wholesome flavor. Perfect for sandwiches, toast, or a healthy daily diet.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (43g). Calories 110. Total Fat 1.5g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 190mg (8%). Total Carbohydrate 19g (7%), Dietary Fiber 3g (11%), Total Sugars 4g (includes 4g added sugars). Protein 5g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.3mg (8%), Potassium 150mg (4%)."
+      "description": "Hearty, wholesome, and full of flavor.Made with a blend of grains and seeds for a richer texture and a more filling bite—something you reach for when you want a little more substance.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (43g). Calories 110. Total Fat 1.5g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 190mg (8%). Total Carbohydrate 19g (7%), Dietary Fiber 3g (11%), Total Sugars 4g (includes 4g added sugars). Protein 5g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.3mg (8%), Potassium 150mg (4%)."
     },
     {
       "id": "pan-de-fruta",
       "image": "img/PanFruta.jpeg",
       "name": "Christmas Bun",
       "category": "traditional",
-      "description": "Traditional fruit bread made with a rich blend of dried fruits, offering a soft texture and naturally sweet flavor. Perfect for breakfast, snacks, or enjoying with butter and cheese.<br><br><strong>Product Details:</strong> Net Weight 36 oz (1020g)."
+      "description": "Soft, fruity, and full of flavor. A classic fruit bun with that naturally sweet taste that always feels familiar.<br><br><strong>Product Details:</strong> Net Weight 36 oz (1020g)."
     },
     {
       "id": "raisin-bread",
       "image": "img/raising mejorada.png",
       "name": "Raisin Bread",
       "category": "breads",
-      "description": "Soft and flavorful wheat raisin bread made with sweet raisins and a rich, wholesome texture. Perfect for breakfast, toast, or enjoying with butter and spreads.<br><br><strong>Nutrition Facts:</strong> Serving Size 1/3 loaf (114g). Calories 180. Total Fat 3g (4%), Saturated Fat 1g (4%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 213mg (9%). Total Carbohydrate 35g (12%), Dietary Fiber 2g (6%), Total Sugars 7g (includes 3g added sugars). Protein 5g. Calcium 50mg (5%), Iron 0.8mg (4%), Potassium 130mg (2%)."
+      "description": "Soft with a touch of sweetness.Studded with raisins and full of flavor—especially nice when it’s warmed up a bit and enjoyed slow<br><br><strong>Nutrition Facts:</strong> Serving Size 1/3 loaf (114g). Calories 180. Total Fat 3g (4%), Saturated Fat 1g (4%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 213mg (9%). Total Carbohydrate 35g (12%), Dietary Fiber 2g (6%), Total Sugars 7g (includes 3g added sugars). Protein 5g. Calcium 50mg (5%), Iron 0.8mg (4%), Potassium 130mg (2%)."
     },
     {
       "id": "spice-bun-28oz",
       "image": "img/SpiceB_P.png",
       "name": "Spice Bun 28 oz",
       "category": "breads",
-      "description": "Soft and aromatic sweet spiced bread, made with a carefully selected blend of spices that gives it a distinctive, slightly sweet flavor. Ideal for breakfast, snacks, or enjoying with butter or cheese.<br><br><strong>Nutrition Facts:</strong> Serving size 53g per 13mm slice. About 15 servings. Calories 160. Calories from fat 15. Total Fat 1.5g (2%), Saturated Fat 0g, Trans Fat 0g. Cholesterol 0mg (0%). Sodium 90mg (4%). Total Carbohydrate 34g (11%), Dietary Fiber less than 1g (3%), Total Sugars 16g. Protein 3g. Polyunsaturated Fat 0g, Monounsaturated Fat 0.5g. Vitamin A 0%, Vitamin C 0%, Iron 8%, Calcium 2%.<br><br><strong>Product Details:</strong> Net weight 794g / 28oz. Bromate free. Contains wheat and soy."
+      "description": "Sweet, spiced, and full of tradition.Rich with warm spices and that signature flavor you know. Slice it up with cheese and it’s already doing what it needs to do.<br><br><strong>Nutrition Facts:</strong> Serving size 53g per 13mm slice. About 15 servings. Calories 160. Calories from fat 15. Total Fat 1.5g (2%), Saturated Fat 0g, Trans Fat 0g. Cholesterol 0mg (0%). Sodium 90mg (4%). Total Carbohydrate 34g (11%), Dietary Fiber less than 1g (3%), Total Sugars 16g. Protein 3g. Polyunsaturated Fat 0g, Monounsaturated Fat 0.5g. Vitamin A 0%, Vitamin C 0%, Iron 8%, Calcium 2%.<br><br><strong>Product Details:</strong> Net weight 794g / 28oz. Bromate free. Contains wheat and soy."
     },
     {
       "id": "spice-bun",
@@ -203,69 +204,69 @@
       "image": "img/Tutti.png",
       "name": "Tutti Fruitti",
       "category": "snacks",
-      "description": "Soft and colorful tutti frutti bread made with candied fruits, offering a sweet flavor and moist texture. Perfect for breakfast, snacks, or as a light dessert.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 package (170g). Calories 580. Total Fat 33g (51%), Saturated Fat 13g (65%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 260mg (11%). Total Carbohydrate 70g (25%), Dietary Fiber 2g (7%), Total Sugars 37g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1mg (6%), Potassium 120mg (2%)."
+      "description": "Colorful, sweet, and full of vibes.Soft bread with bits of candied fruit throughout—one of those nostalgic treats that takes you right back.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 package (170g). Calories 580. Total Fat 33g (51%), Saturated Fat 13g (65%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 260mg (11%). Total Carbohydrate 70g (25%), Dietary Fiber 2g (7%), Total Sugars 37g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1mg (6%), Potassium 120mg (2%)."
     },
     {
       "id": "whole-wheat-bread",
       "image": "img/wholemejorado.png",
       "name": "Whole Wheat Bread",
       "category": "breads",
-      "description": "Wholesome whole wheat bread made with enriched wheat flour, offering a soft texture and balanced, hearty flavor. Perfect for sandwiches, toast, or a healthy daily diet.<br><br><strong>Nutrition Facts:</strong> Serving Size 1.5oz (43g). Calories 120. Total Fat 1g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 230mg (10%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes 2g added sugars). Protein 4g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1.65mg (8%), Potassium 42mg (0%)."
+      "description": "Simple, balanced, and satisfying.Soft whole wheat bread with a smooth texture and hearty flavor. Easy, everyday bread that fits into whatever you’re making<br><br><strong>Nutrition Facts:</strong> Serving Size 1.5oz (43g). Calories 120. Total Fat 1g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 230mg (10%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes 2g added sugars). Protein 4g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1.65mg (8%), Potassium 42mg (0%)."
     },
     {
       "id": "ackee-in-brine",
       "image": "img/AckeeModificada.png",
       "name": "Ackee in Brine",
       "category": "traditional",
-      "description": "Ackee in brine prepared for traditional Caribbean cooking and retail distribution.<br><br><strong>Ingredients:</strong> Ackee, Water, Salt.<br><br><strong>Nutrition Facts:</strong> About 6 Serving Per Container. Serving size 1/4 cup (53g/1.9oz). Calories 80. Total Fat 7g (8%), Saturated Fat 2.5g (12%), Trans Fat 0g. Sodium 200mg (6%). Total Carbohydrate 0g (0%). Protein 2g. Potassium 100mg (2%), Vitamin C 25%."
+      "description": "A Jamaican essential.Ready when you are. Once it hits the pan with saltfish, onions, and peppers, it’s already on its way.<br><br><strong>Ingredients:</strong> Ackee, Water, Salt.<br><br><strong>Nutrition Facts:</strong> About 6 Serving Per Container. Serving size 1/4 cup (53g/1.9oz). Calories 80. Total Fat 7g (8%), Saturated Fat 2.5g (12%), Trans Fat 0g. Sodium 200mg (6%). Total Carbohydrate 0g (0%). Protein 2g. Potassium 100mg (2%), Vitamin C 25%."
     },
     {
       "id": "bulla-4-pack",
       "image": "img/Bulla.png",
       "name": "Bulla 4-Pack",
       "category": "traditional",
-      "description": "Traditional bulla assortment including ginger, coconut, banana, and cinnamon flavors in a 4-pack presentation.<br><br><strong>Product Details:</strong> 4-pack assortment."
+      "description": "Firm, spiced, and straight from yaad.Simple, filling, and full of flavor. The kind of thing that’s always around when you need a quick bite.<br><br><strong>Product Details:</strong> 4-pack assortment."
     },
     {
       "id": "bammy-sticks",
       "image": "img/BammyS.png",
       "name": "Bammy Sticks",
       "category": "traditional",
-      "description": "Authentic Jamaican bammy sticks made from cassava, also known as Jamaican cassava cakes or yuca tortillas. A traditional Caribbean side prepared for retail, foodservice, and wholesale distribution.<br><br><strong>Product Details:</strong> Net weight 14 oz (397g). Pack size 10 x 397g x 24. Authentic Jamaican. Best quality guaranteed."
+      "description": "Authentic and versatile.Made from cassava the traditional way. Once there’s escovitch or fried fish on the plate, it finds its place right beside it.<br><br><strong>Product Details:</strong> Net weight 14 oz (397g). Pack size 10 x 397g x 24. Authentic Jamaican. Best quality guaranteed."
     },
     {
       "id": "mini-bammy",
       "image": "img/BammyRedondo.png",
       "name": "Mini Bammy",
       "category": "traditional",
-      "description": "Authentic Jamaican mini bammy made from cassava, also known as Jamaican cassava cakes or yuca tortillas. A traditional round Caribbean side designed for retail, foodservice, and wholesale distribution.<br><br><strong>Product Details:</strong> Net weight 14 oz (397g). Authentic Jamaican. Best quality guaranteed."
+      "description": "Same tradition, smaller size.Easy to serve, easy to enjoy—same authentic taste in a more convenient form.<br><br><strong>Product Details:</strong> Net weight 14 oz (397g). Authentic Jamaican. Best quality guaranteed."
     },
     {
       "id": "curry-powder-spicy",
       "image": "img/Curry.jpeg",
       "name": "Curry Powder Spicy",
-      "category": "traditional",
-      "description": "Authentic Jamaican spicy curry powder from Spanish Town Caribbean Foods, made for seasoning meat, fish, and vegetables. Product of Jamaica.<br><br><strong>Ingredients:</strong> Turmeric, coriander, paprika, annatto, mustard, spices.<br><br><strong>Directions for use:</strong> Use approximately 1 oz curry powder per 1 lb of meat, fish, or vegetables. In a saucepan, heat 1 tablespoon of oil, add curry powder, and cook briefly. Add seasoned meat or fish and cook over heat, adding a little water or wine to make a tasty gravy. Serve with plain boiled rice and tossed salad. Can be accompanied by chutney, mango, or pineapple.<br><br><strong>Nutrition Facts:</strong> Serving size 1 oz. About 80 servings per container. Calories 13. Total fat 4.9 g (7.5%), trans fat 0 g, saturated fat 0 g, cholesterol 0 mg, sodium 0 mg, total carbohydrate 17.5 g (5.8%), dietary fiber 3.3 g, sugars 0 g, protein 3.4 g. Vitamin A 0%, vitamin C 0%, calcium 30%, iron 15%.<br><br><strong>Product Details:</strong> Net weight 80 oz (5 lbs). Authentic Jamaican. Product of Jamaica."
+      "category": "seasonings",
+      "description": "Bold, rich, and full of depth.Built for real flavor—the kind that carries through the whole dish.<br><br><strong>Ingredients:</strong> Turmeric, coriander, paprika, annatto, mustard, spices.<br><br><strong>Directions for use:</strong> Use approximately 1 oz curry powder per 1 lb of meat, fish, or vegetables. In a saucepan, heat 1 tablespoon of oil, add curry powder, and cook briefly. Add seasoned meat or fish and cook over heat, adding a little water or wine to make a tasty gravy. Serve with plain boiled rice and tossed salad. Can be accompanied by chutney, mango, or pineapple.<br><br><strong>Nutrition Facts:</strong> Serving size 1 oz. About 80 servings per container. Calories 13. Total fat 4.9 g (7.5%), trans fat 0 g, saturated fat 0 g, cholesterol 0 mg, sodium 0 mg, total carbohydrate 17.5 g (5.8%), dietary fiber 3.3 g, sugars 0 g, protein 3.4 g. Vitamin A 0%, vitamin C 0%, calcium 30%, iron 15%.<br><br><strong>Product Details:</strong> Net weight 80 oz (5 lbs). Authentic Jamaican. Product of Jamaica."
     },
     {
       "id": "mild-jerk-seasoning",
       "image": "img/MildJerk.jpeg",
       "name": "Mild Jerk Seasoning",
-      "category": "traditional",
-      "description": "Authentic Jamaican mild jerk seasoning from Spanish Town Caribbean Foods. A flavorful seasoning for meat, fish, poultry, vegetables, scrambled eggs, and soups. Product of Jamaica.<br><br><strong>Suggested use:</strong> For each pound of meat, fish, or poultry, use 2-3 teaspoons of seasoning. Rub in and leave to marinate for about two hours, then grill, roast, fry, or use for stew. Can also be used on vegetables with scrambled eggs and soups.<br><br><strong>Storage:</strong> Do not use if the band around the cap is missing or broken. Store in a cool, dry place. Refrigerate after opening.<br><br><strong>Ingredients:</strong> Scallion, hot pepper, salt, spices, acetic acid, thyme, 0.033% potassium sorbate as preservative.<br><br><strong>Nutrition Facts:</strong> Serving size 1 oz (28 g). About 136 servings per container. Calories 5. Total fat 0 g, saturated fat 0 g, trans fat 0 g, cholesterol 0 mg, sodium 550 mg (22%), total carbohydrate 0 g, dietary fiber 0 g, sugars 0 g, protein 0 g. Vitamin A 0%, vitamin C 0%, calcium 2%, iron 10%.<br><br><strong>Product Details:</strong> Net weight 136 oz (8.5 lbs) / 3.85 kg. Authentic Jamaican. Product of Jamaica."
+      "category": "seasonings",
+      "description": "Flavorful without too much heat.All the taste of jerk, just dialed back a bit so you can use it anytime.<br><br><strong>Suggested use:</strong> For each pound of meat, fish, or poultry, use 2-3 teaspoons of seasoning. Rub in and leave to marinate for about two hours, then grill, roast, fry, or use for stew. Can also be used on vegetables with scrambled eggs and soups.<br><br><strong>Storage:</strong> Do not use if the band around the cap is missing or broken. Store in a cool, dry place. Refrigerate after opening.<br><br><strong>Ingredients:</strong> Scallion, hot pepper, salt, spices, acetic acid, thyme, 0.033% potassium sorbate as preservative.<br><br><strong>Nutrition Facts:</strong> Serving size 1 oz (28 g). About 136 servings per container. Calories 5. Total fat 0 g, saturated fat 0 g, trans fat 0 g, cholesterol 0 mg, sodium 550 mg (22%), total carbohydrate 0 g, dietary fiber 0 g, sugars 0 g, protein 0 g. Vitamin A 0%, vitamin C 0%, calcium 2%, iron 10%.<br><br><strong>Product Details:</strong> Net weight 136 oz (8.5 lbs) / 3.85 kg. Authentic Jamaican. Product of Jamaica."
     },
     {
       "id": "hot-jerk-seasoning",
       "image": "img/HotJerk.jpeg",
       "name": "Hot Jerk Seasoning",
-      "category": "traditional",
-      "description": "Authentic Jamaican hot jerk seasoning from Spanish Town Caribbean Foods. A bold, spicy seasoning for meat, fish, poultry, vegetables, scrambled eggs, and soups. Product of Jamaica.<br><br><strong>Suggested use:</strong> For each pound of meat, fish, or poultry, use 2-3 teaspoons of seasoning. Rub in and leave to marinate for about two hours, then grill, roast, fry, or use for stew. Can also be used on vegetables with scrambled eggs and soups.<br><br><strong>Storage:</strong> Do not use if the band around the cap is missing or broken. Store in a cool, dry place. Refrigerate after opening.<br><br><strong>Ingredients:</strong> Scallion, hot pepper, salt, spices, acetic acid, thyme, 0.033% potassium sorbate as preservative.<br><br><strong>Nutrition Facts:</strong> Serving size 1 oz (28 g). About 136 servings per container. Calories 5. Total fat 0 g, saturated fat 0 g, trans fat 0 g, cholesterol 0 mg, sodium 550 mg (22%), total carbohydrate 0 g, dietary fiber 0 g, sugars 0 g, protein 0 g. Vitamin A 0%, vitamin C 0%, calcium 2%, iron 10%.<br><br><strong>Product Details:</strong> Net weight 136 oz (8.5 lbs) / 3.85 kg. Authentic Jamaican. Product of Jamaica."
+      "category": "seasonings",
+      "description": "Real spice. Real heat.This one doesn’t play—proper heat with that deep, smoky flavor.<br><br><strong>Suggested use:</strong> For each pound of meat, fish, or poultry, use 2-3 teaspoons of seasoning. Rub in and leave to marinate for about two hours, then grill, roast, fry, or use for stew. Can also be used on vegetables with scrambled eggs and soups.<br><br><strong>Storage:</strong> Do not use if the band around the cap is missing or broken. Store in a cool, dry place. Refrigerate after opening.<br><br><strong>Ingredients:</strong> Scallion, hot pepper, salt, spices, acetic acid, thyme, 0.033% potassium sorbate as preservative.<br><br><strong>Nutrition Facts:</strong> Serving size 1 oz (28 g). About 136 servings per container. Calories 5. Total fat 0 g, saturated fat 0 g, trans fat 0 g, cholesterol 0 mg, sodium 550 mg (22%), total carbohydrate 0 g, dietary fiber 0 g, sugars 0 g, protein 0 g. Vitamin A 0%, vitamin C 0%, calcium 2%, iron 10%.<br><br><strong>Product Details:</strong> Net weight 136 oz (8.5 lbs) / 3.85 kg. Authentic Jamaican. Product of Jamaica."
     },
     {
       "id": "walkerswood-mild-jerk-seasoning-10oz",
       "image": "img/jerkM10Onz.png",
       "name": "Walkerswood Mild Jerk Seasoning 10 oz",
-      "category": "traditional",
+      "category": "seasonings",
       "description": "Walkerswood Traditional Jamaican jerk seasoning in a mild flavor, prepared for authentic Caribbean cooking and retail presentation.<br><br><strong>Product Details:</strong> Net weight 10 oz (280 g). Mild. Traditional Jamaican jerk seasoning."
     }
   ]
