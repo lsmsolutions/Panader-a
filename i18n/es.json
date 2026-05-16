@@ -158,6 +158,13 @@
       "description": "Sabor intenso con un acabado suave. Húmedo, rico y lleno de carácter, con esa clásica combinación perfectamente equilibrada.<br><br><strong>Detalles del producto:</strong> Formato 5 oz x 50."
     },
     {
+      "id": "carrot-cake",
+      "image": "img/CarrotCake.png",
+      "name": "Carrot Cake",
+      "category": "bunsCakes",
+      "description": "Suave, dulce y con ese sabor casero de zanahoria y especias. Un pastel práctico de 4 oz, perfecto para vender como porción individual sin perder el toque tradicional.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 paquete (142 g). Calorías 350. Grasa total 32 g (41%), grasa saturada 7 g (33%), grasa trans 0 g. Colesterol 50 mg (31%). Sodio 470 mg (20%). Carbohidratos totales 70 g (28%), fibra dietética 2 g (8%), azúcares totales 37 g (incluye 37 g de azúcares añadidos, 74%). Proteína 3 g. Vitamina D 0.4 mcg (4%), calcio 70 mg (6%), hierro 2.5 mg (16%), potasio 120 mg (2%).<br><br><strong>Detalles del producto:</strong> Peso neto 4 oz. Formato 4 oz x 50. Contiene trigo y soya."
+    },
+    {
       "id": "ginger-cake",
       "image": "img/GingerMejorada .png",
       "name": "Pastel de jengibre",
@@ -226,6 +233,20 @@
       "name": "Bulla paquete de 4",
       "category": "traditional",
       "description": "Firme, especiado y directo de Jamaica. Sencillo, contundente y lleno de sabor. De esos bocados que siempre están ahí cuando hace falta algo rápido y bueno.<br><br><strong>Detalles del producto:</strong> Surtido de 4 unidades."
+    },
+    {
+      "id": "banana-bulla-4-pax",
+      "image": "img/bbb.png",
+      "name": "Banana Bulla 4 - Pax",
+      "category": "traditional",
+      "description": "Bulla tradicional con un toque suave de banana. Firme, dulce y fácil de compartir, ideal para una merienda rápida con sabor jamaicano auténtico.<br><br><strong>Detalles del producto:</strong> Paquete de 4 unidades. 12 unidades por caja."
+    },
+    {
+      "id": "ginger-bulla-4-pax",
+      "image": "img/GingerBulla.png",
+      "name": "Ginger Bulla 4 - Pax",
+      "category": "traditional",
+      "description": "Bulla especiada con el calor clásico del jengibre. Un bocado firme, aromático y lleno de carácter, perfecto para acompañar con queso o disfrutar solo.<br><br><strong>Detalles del producto:</strong> Paquete de 4 unidades. 12 unidades por caja."
     },
     {
       "id": "bammy-sticks",

@@ -158,6 +158,13 @@
       "description": "Bold flavor with a smooth finish.Moist, rich, and full-bodied with that classic combination done right.<br><br><strong>Product Details:</strong> Pack size 5 oz x 50."
     },
     {
+      "id": "carrot-cake",
+      "image": "img/CarrotCake.png",
+      "name": "Carrot Cake",
+      "category": "bunsCakes",
+      "description": "Soft, sweet, and warmly spiced with that familiar carrot cake flavor. A convenient 4 oz cake made for easy retail display and everyday snacking.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 package (142g). Calories 350. Total Fat 32g (41%), Saturated Fat 7g (33%), Trans Fat 0g. Cholesterol 50mg (31%). Sodium 470mg (20%). Total Carbohydrate 70g (28%), Dietary Fiber 2g (8%), Total Sugars 37g (includes 37g added sugars, 74%). Protein 3g. Vitamin D 0.4mcg (4%), Calcium 70mg (6%), Iron 2.5mg (16%), Potassium 120mg (2%).<br><br><strong>Product Details:</strong> Net weight 4 oz. Pack size 4 oz x 50. Contains wheat and soy."
+    },
+    {
       "id": "ginger-cake",
       "image": "img/GingerMejorada .png",
       "name": "Ginger Cake",
@@ -226,6 +233,20 @@
       "name": "Bulla 4-Pack",
       "category": "traditional",
       "description": "Firm, spiced, and straight from yaad.Simple, filling, and full of flavor. The kind of thing that’s always around when you need a quick bite.<br><br><strong>Product Details:</strong> 4-pack assortment."
+    },
+    {
+      "id": "banana-bulla-4-pax",
+      "image": "img/bbb.png",
+      "name": "Banana Bulla 4 - Pax",
+      "category": "traditional",
+      "description": "Traditional bulla with a smooth banana note. Firm, sweet, and easy to share, made for a quick snack with real Jamaican flavor.<br><br><strong>Product Details:</strong> 4-pack. 12 units per case."
+    },
+    {
+      "id": "ginger-bulla-4-pax",
+      "image": "img/GingerBulla.png",
+      "name": "Ginger Bulla 4 - Pax",
+      "category": "traditional",
+      "description": "Spiced bulla with that classic ginger warmth. Firm, aromatic, and full of character, perfect with cheese or enjoyed on its own.<br><br><strong>Product Details:</strong> 4-pack. 12 units per case."
     },
     {
       "id": "bammy-sticks",
