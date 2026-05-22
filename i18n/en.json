@@ -144,13 +144,6 @@
       "description": "Rich, dense, and full of real flavor.Packed with fruits and spices for that deep, unmistakable taste. The kind of cake that shows up for celebrations and doesn’t disappoint<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (122g). Calories 350. Total Fat 33g (41%), Saturated Fat 14g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 210mg (9%). Total Carbohydrate 70g (26%), Dietary Fiber 3g (6%), Total Sugars 39g (includes added sugars). Protein 8g. Vitamin D 0mcg, Calcium 70mg (6%), Iron 3mg (16%), Potassium 2%."
     },
     {
-      "id": "easter-bun",
-      "image": "img/EasterB.png",
-      "name": "Easter Bun",
-      "category": "traditional",
-      "description": "A true Jamaican tradition.Rich, spiced, and slightly sweet. You already know how this goes—cut a slice, add the cheese, and you’re good.<br><br><strong>Product Details:</strong> Pack size 36 oz x 12."
-    },
-    {
       "id": "rum-raisin-cake",
       "image": "img/RumRaisin.png",
       "name": "Rum & Raisin Cake",
@@ -177,13 +170,6 @@
       "name": "Multi Grand Hardough",
       "category": "breads",
       "description": "Hearty, wholesome, and full of flavor.Made with a blend of grains and seeds for a richer texture and a more filling bite—something you reach for when you want a little more substance.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (43g). Calories 110. Total Fat 1.5g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 190mg (8%). Total Carbohydrate 19g (7%), Dietary Fiber 3g (11%), Total Sugars 4g (includes 4g added sugars). Protein 5g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.3mg (8%), Potassium 150mg (4%)."
-    },
-    {
-      "id": "pan-de-fruta",
-      "image": "img/PanFruta.jpeg",
-      "name": "Christmas Bun",
-      "category": "traditional",
-      "description": "Soft, fruity, and full of flavor. A classic fruit bun with that naturally sweet taste that always feels familiar.<br><br><strong>Product Details:</strong> Net Weight 36 oz (1020g)."
     },
     {
       "id": "raisin-bread",
@@ -221,20 +207,6 @@
       "description": "Simple, balanced, and satisfying.Soft whole wheat bread with a smooth texture and hearty flavor. Easy, everyday bread that fits into whatever you’re making<br><br><strong>Nutrition Facts:</strong> Serving Size 1.5oz (43g). Calories 120. Total Fat 1g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 230mg (10%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes 2g added sugars). Protein 4g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1.65mg (8%), Potassium 42mg (0%)."
     },
     {
-      "id": "ackee-in-brine",
-      "image": "img/AckeeModificada.png",
-      "name": "Ackee in Brine",
-      "category": "traditional",
-      "description": "A Jamaican essential.Ready when you are. Once it hits the pan with saltfish, onions, and peppers, it’s already on its way.<br><br><strong>Ingredients:</strong> Ackee, Water, Salt.<br><br><strong>Nutrition Facts:</strong> About 6 Serving Per Container. Serving size 1/4 cup (53g/1.9oz). Calories 80. Total Fat 7g (8%), Saturated Fat 2.5g (12%), Trans Fat 0g. Sodium 200mg (6%). Total Carbohydrate 0g (0%). Protein 2g. Potassium 100mg (2%), Vitamin C 25%."
-    },
-    {
-      "id": "bulla-4-pack",
-      "image": "img/Bulla.png",
-      "name": "Bulla 4-Pack",
-      "category": "traditional",
-      "description": "Firm, spiced, and straight from yaad.Simple, filling, and full of flavor. The kind of thing that’s always around when you need a quick bite.<br><br><strong>Product Details:</strong> 4-pack assortment."
-    },
-    {
       "id": "banana-bulla-4-pax",
       "image": "img/bbb.png",
       "name": "Banana Bulla 4 - Pax",
@@ -249,6 +221,13 @@
       "description": "Spiced bulla with that classic ginger warmth. Firm, aromatic, and full of character, perfect with cheese or enjoyed on its own.<br><br><strong>Product Details:</strong> 4-pack. 12 units per case."
     },
     {
+      "id": "coconut-bulla-4-pax",
+      "image": "img/CoconutB.png",
+      "name": "Coconut Bulla 4 - Pax",
+      "category": "traditional",
+      "description": "Traditional bulla with a smooth coconut flavor. Lightly sweet with a tropical touch, perfect for a quick snack or enjoying with cheese.<br><br><strong>Product Details:</strong> 4-pack. 12 units per case."
+    },
+    {
       "id": "bammy-sticks",
       "image": "img/BammyS.png",
       "name": "Bammy Sticks",
@@ -261,6 +240,20 @@
       "name": "Mini Bammy",
       "category": "traditional",
       "description": "Same tradition, smaller size.Easy to serve, easy to enjoy—same authentic taste in a more convenient form.<br><br><strong>Product Details:</strong> Net weight 14 oz (397g). Authentic Jamaican. Best quality guaranteed."
+    },
+    {
+      "id": "pan-de-fruta",
+      "image": "img/PanFruta.jpeg",
+      "name": "Christmas Bun",
+      "category": "traditional",
+      "description": "Soft, fruity, and full of flavor. A classic fruit bun with that naturally sweet taste that always feels familiar.<br><br><strong>Product Details:</strong> Net Weight 36 oz (1020g)."
+    },
+    {
+      "id": "ackee-in-brine",
+      "image": "img/AckeeModificada.png",
+      "name": "Ackee in Brine",
+      "category": "traditional",
+      "description": "A Jamaican essential.Ready when you are. Once it hits the pan with saltfish, onions, and peppers, it’s already on its way.<br><br><strong>Ingredients:</strong> Ackee, Water, Salt.<br><br><strong>Nutrition Facts:</strong> About 6 Serving Per Container. Serving size 1/4 cup (53g/1.9oz). Calories 80. Total Fat 7g (8%), Saturated Fat 2.5g (12%), Trans Fat 0g. Sodium 200mg (6%). Total Carbohydrate 0g (0%). Protein 2g. Potassium 100mg (2%), Vitamin C 25%."
     },
     {
       "id": "curry-powder-spicy",
