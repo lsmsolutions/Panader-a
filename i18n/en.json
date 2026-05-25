@@ -167,7 +167,7 @@
     {
       "id": "multi-grand-hardough",
       "image": "img/multimejjorado.png",
-      "name": "Multi Grand Hardough",
+      "name": "Multi Grain Hardough",
       "category": "breads",
       "description": "Hearty, wholesome, and full of flavor.Made with a blend of grains and seeds for a richer texture and a more filling bite—something you reach for when you want a little more substance.<br><br><strong>Nutrition Facts:</strong> Serving Size 1 slice (43g). Calories 110. Total Fat 1.5g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 190mg (8%). Total Carbohydrate 19g (7%), Dietary Fiber 3g (11%), Total Sugars 4g (includes 4g added sugars). Protein 5g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.3mg (8%), Potassium 150mg (4%)."
     },
@@ -209,21 +209,21 @@
     {
       "id": "banana-bulla-4-pax",
       "image": "img/bbb.png",
-      "name": "Banana Bulla 4 - Pax",
+      "name": "Banana Bulla (Pax to Packs)",
       "category": "traditional",
       "description": "Traditional bulla with a smooth banana note. Firm, sweet, and easy to share, made for a quick snack with real Jamaican flavor.<br><br><strong>Product Details:</strong> 4-pack. 12 units per case."
     },
     {
       "id": "ginger-bulla-4-pax",
       "image": "img/GingerBulla.png",
-      "name": "Ginger Bulla 4 - Pax",
+      "name": "Ginger Bulla (Pax to Packs)",
       "category": "traditional",
       "description": "Spiced bulla with that classic ginger warmth. Firm, aromatic, and full of character, perfect with cheese or enjoyed on its own.<br><br><strong>Product Details:</strong> 4-pack. 12 units per case."
     },
     {
       "id": "coconut-bulla-4-pax",
       "image": "img/CoconutB.png",
-      "name": "Coconut Bulla 4 - Pax",
+      "name": "Coconut Bulla (Pax to Packs)",
       "category": "traditional",
       "description": "Traditional bulla with a smooth coconut flavor. Lightly sweet with a tropical touch, perfect for a quick snack or enjoying with cheese.<br><br><strong>Product Details:</strong> 4-pack. 12 units per case."
     },
