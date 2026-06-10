@@ -258,14 +258,14 @@
     },
     {
       "id": "curry-powder-spicy",
-      "image": "img/Curry3.png",
+      "image": "img/Curry2.png",
       "name": "Curry Powder Spicy",
       "category": "seasonings",
       "description": "Intenso, rico y lleno de profundidad. Creado para aportar un sabor auténtico que se mantiene en todo el plato.<br><br><strong>Ingredientes:</strong> Cúrcuma, cilantro, paprika, achiote, mostaza y especias.<br><br><strong>Modo de empleo:</strong> Utilice aproximadamente 1 oz de curry por cada 1 lb de carne, pescado o vegetales. En una cacerola, caliente 1 cucharada de aceite, añada el curry y cocine brevemente. Agregue la carne o el pescado sazonado y cocine, añadiendo un poco de agua o vino para preparar una salsa sabrosa. Sirva con arroz blanco hervido y ensalada. Puede acompañarse con chutney, mango o piña.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 oz. Aproximadamente 80 porciones por envase. Calorías 13. Grasa total 4.9 g (7.5%), grasa trans 0 g, grasa saturada 0 g, colesterol 0 mg, sodio 0 mg, carbohidratos totales 17.5 g (5.8%), fibra dietética 3.3 g, azúcares 0 g, proteína 3.4 g. Vitamina A 0%, vitamina C 0%, calcio 30%, hierro 15%.<br><br><strong>Detalles del producto:</strong> Peso neto 80 oz (5 lb). Auténtico jamaicano. Producto de Jamaica."
     },
     {
       "id": "mild-jerk-seasoning",
-      "image": "img/mildJerk.png",
+      "image": "img/mildJerk3.png",
       "name": "Mild Jerk Seasoning",
       "category": "seasonings",
       "description": "Lleno de sabor sin demasiado picante. Todo el sabor del jerk jamaicano, pero más suave para usarlo en cualquier momento.<br><br><strong>Uso sugerido:</strong> Para cada libra de carne, pescado o ave, utilice 2-3 cucharaditas de condimento. Frote y deje marinar durante aproximadamente dos horas; luego cocine a la parrilla, ase, fría o use para guisos. También puede utilizarse en vegetales, huevos revueltos y sopas.<br><br><strong>Conservación:</strong> No utilizar si la banda alrededor de la tapa está rota o falta. Conservar en un lugar fresco y seco. Refrigerar después de abrir.<br><br><strong>Ingredientes:</strong> Cebolleta, pimiento picante, sal, especias, ácido acético, tomillo, 0.033% de sorbato de potasio como conservante.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 oz (28 g). Aproximadamente 136 porciones por envase. Calorías 5. Grasa total 0 g, grasa saturada 0 g, grasa trans 0 g, colesterol 0 mg, sodio 550 mg (22%), carbohidratos totales 0 g, fibra dietética 0 g, azúcares 0 g, proteína 0 g. Vitamina A 0%, vitamina C 0%, calcio 2%, hierro 10%.<br><br><strong>Detalles del producto:</strong> Peso neto 136 oz (8.5 lb) / 3.85 kg. Auténtico jamaicano. Producto de Jamaica."
@@ -276,13 +276,6 @@
       "name": "Hot Jerk Seasoning",
       "category": "seasonings",
       "description": "Auténtico picante. Auténtico sabor. Este sí viene con fuerza: picante intenso acompañado de ese profundo sabor ahumado tan característico.<br><br><strong>Uso sugerido:</strong> Para cada libra de carne, pescado o ave, utilice 2-3 cucharaditas de condimento. Frote y deje marinar durante aproximadamente dos horas; luego cocine a la parrilla, ase, fría o use para guisos. También puede utilizarse en vegetales, huevos revueltos y sopas.<br><br><strong>Conservación:</strong> No utilizar si la banda alrededor de la tapa está rota o falta. Conservar en un lugar fresco y seco. Refrigerar después de abrir.<br><br><strong>Ingredientes:</strong> Cebolleta, pimiento picante, sal, especias, ácido acético, tomillo, 0.033% de sorbato de potasio como conservante.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 oz (28 g). Aproximadamente 136 porciones por envase. Calorías 5. Grasa total 0 g, grasa saturada 0 g, grasa trans 0 g, colesterol 0 mg, sodio 550 mg (22%), carbohidratos totales 0 g, fibra dietética 0 g, azúcares 0 g, proteína 0 g. Vitamina A 0%, vitamina C 0%, calcio 2%, hierro 10%.<br><br><strong>Detalles del producto:</strong> Peso neto 136 oz (8.5 lb) / 3.85 kg. Auténtico jamaicano. Producto de Jamaica."
-    },
-    {
-      "id": "walkerswood-mild-jerk-seasoning-10oz",
-      "image": "img/jerkM10Onz.png",
-      "name": "Walkerswood Mild Jerk Seasoning 10 oz",
-      "category": "seasonings",
-      "description": "Condimento jerk jamaicano tradicional Walkerswood en versión suave, preparado para una auténtica cocina caribeña y presentación minorista.<br><br><strong>Detalles del producto:</strong> Peso neto 10 oz (280 g). Sabor suave. Condimento jerk jamaicano tradicional."
     }
   ]
 }
