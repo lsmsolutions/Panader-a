@@ -9,6 +9,8 @@ const quoteRedirectPaths = {
 const caseUnitsByProductId = {
   "curry-powder-spicy": "6",
   "mild-jerk-seasoning": "6",
+  "mildG-jerk-seasoning": "6",
+  "hotP-jerk-seasoning": "6",
   "hot-jerk-seasoning": "6",
   "pan-de-fruta": "12",
   "hardough-bread": "12",

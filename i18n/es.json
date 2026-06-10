@@ -95,19 +95,33 @@
     "note": "Dirección: 5712 SW 25TH STREET, WEST PARK, FL 33023 | Teléfono: Tel:(954)-864-9057 | Email: spaintownimports@gmail.com"
   },
   "products": [
+     {
+      "id": "hardough-bread",
+      "image": "img/PanBlanco2.png",
+      "name": "Pan Hardough",
+      "category": "breads",
+      "description": "Suave, fresco y un clásico jamaicano. El hardough tradicional: ligero, esponjoso y siempre listo. Ya sea tostado por la mañana o acompañado de ackee con bacalao, simplemente funciona.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada. Calorías 120. Grasa total 1 g (1%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 180 mg (8%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 30 mg (2%), hierro 1.6 mg (8%), potasio 40 mg (0%)."
+    },
+    {
+      "id": "whole-wheat-bread",
+      "image": "img/Whole2.jpeg",
+      "name": "Pan integral",
+      "category": "breads",
+      "description": "Simple, equilibrado y satisfactorio. Pan integral suave, con textura ligera y un sabor lleno de cuerpo. Un pan de todos los días que encaja perfectamente con cualquier comida.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1.5 oz (43 g). Calorías 120. Grasa total 1 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 230 mg (10%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye 2 g de azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 80 mg (6%), hierro 1.65 mg (8%), potasio 42 mg (0%)."
+    },
+    {
+      "id": "multi-grand-hardough",
+      "image": "img/semillas.png",
+      "name": "Multi Grain Hardough",
+      "category": "breads",
+      "description": "Sustancioso, nutritivo y lleno de sabor. Elaborado con una mezcla de granos y semillas que aporta una textura más rica y un bocado más completo; ideal cuando buscas algo con más cuerpo.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (43 g). Calorías 110. Grasa total 1.5 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 190 mg (8%). Carbohidratos totales 19 g (7%), fibra dietética 3 g (11%), azúcares totales 4 g (incluye 4 g de azúcares añadidos). Proteína 5 g. Vitamina D 0 mcg, calcio 30 mg (2%), hierro 1.3 mg (8%), potasio 150 mg (4%)."
+    },
     {
       "id": "banana-bread",
       "image": "img/BB.png",
       "name": "Pan de banana",
       "category": "breads",
       "description": "Húmedo, rico y naturalmente dulce. Elaborado con bananas maduras para lograr una textura suave y todo su sabor. Es de esos panes que apetece disfrutar por la mañana sin pensarlo dos veces.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 85 g. Calorías 350. Grasa total 33 g (41%), grasa saturada 7 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 280 mg (12%). Carbohidratos totales 11 g (4%), fibra dietética 1 g (4%), azúcares totales 7 g (incluye azúcares añadidos). Proteína 3 g. Vitamina D 0 mcg, calcio 7 mg, hierro 1 mg, potasio 120 mg."
-    },
-    {
-      "id": "hardough-bread",
-      "image": "img/BreadMejorado.png",
-      "name": "Pan Hardough",
-      "category": "breads",
-      "description": "Suave, fresco y un clásico jamaicano. El hardough tradicional: ligero, esponjoso y siempre listo. Ya sea tostado por la mañana o acompañado de ackee con bacalao, simplemente funciona.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada. Calorías 120. Grasa total 1 g (1%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 180 mg (8%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 30 mg (2%), hierro 1.6 mg (8%), potasio 40 mg (0%)."
     },
     {
       "id": "coconut-bread",
@@ -166,13 +180,6 @@
       "description": "Cálido, suave y delicadamente especiado. Un toque de jengibre equilibrado con una textura tierna; perfecto cuando apetece algo sencillo y realmente bueno.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (142 g). Calorías 580. Grasa total 26 g (33%), grasa saturada 7 g (35%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 200 mg (9%). Carbohidratos totales 79 g (29%), fibra dietética 2 g (7%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 6 g. Vitamina D 0 mcg, calcio 60 mg (4%), hierro 2 mg (10%), potasio 4%."
     },
     {
-      "id": "multi-grand-hardough",
-      "image": "img/multimejjorado.png",
-      "name": "Multi Grain Hardough",
-      "category": "breads",
-      "description": "Sustancioso, nutritivo y lleno de sabor. Elaborado con una mezcla de granos y semillas que aporta una textura más rica y un bocado más completo; ideal cuando buscas algo con más cuerpo.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (43 g). Calorías 110. Grasa total 1.5 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 190 mg (8%). Carbohidratos totales 19 g (7%), fibra dietética 3 g (11%), azúcares totales 4 g (incluye 4 g de azúcares añadidos). Proteína 5 g. Vitamina D 0 mcg, calcio 30 mg (2%), hierro 1.3 mg (8%), potasio 150 mg (4%)."
-    },
-    {
       "id": "raisin-bread",
       "image": "img/raising mejorada.png",
       "name": "Pan de pasas",
@@ -199,13 +206,6 @@
       "name": "Tutti Fruitti",
       "category": "snacks",
       "description": "Colorido, dulce y lleno de buena vibra. Pan suave con trozos de frutas confitadas; uno de esos sabores nostálgicos que te transportan al instante.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 paquete (170 g). Calorías 580. Grasa total 33 g (51%), grasa saturada 13 g (65%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 260 mg (11%). Carbohidratos totales 70 g (25%), fibra dietética 2 g (7%), azúcares totales 37 g (incluye azúcares añadidos). Proteína 6 g. Vitamina D 0 mcg, calcio 80 mg (6%), hierro 1 mg (6%), potasio 120 mg (2%)."
-    },
-    {
-      "id": "whole-wheat-bread",
-      "image": "img/wholemejorado.png",
-      "name": "Pan integral",
-      "category": "breads",
-      "description": "Simple, equilibrado y satisfactorio. Pan integral suave, con textura ligera y un sabor lleno de cuerpo. Un pan de todos los días que encaja perfectamente con cualquier comida.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1.5 oz (43 g). Calorías 120. Grasa total 1 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 230 mg (10%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye 2 g de azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 80 mg (6%), hierro 1.65 mg (8%), potasio 42 mg (0%)."
     },
     {
       "id": "banana-bulla-4-pax",
@@ -286,7 +286,7 @@
     },
     {
       "id": "curry-powder-spicy",
-      "image": "img/Curry4.png",
+      "image": "img/curryG.png",
       "name": "Curry Powder Spicy",
       "category": "seasonings",
       "description": "Intenso, rico y lleno de profundidad. Creado para aportar un sabor auténtico que se mantiene en todo el plato.<br><br><strong>Ingredientes:</strong> Cúrcuma, cilantro, paprika, achiote, mostaza y especias.<br><br><strong>Modo de empleo:</strong> Utilice aproximadamente 1 oz de curry por cada 1 lb de carne, pescado o vegetales. En una cacerola, caliente 1 cucharada de aceite, añada el curry y cocine brevemente. Agregue la carne o el pescado sazonado y cocine, añadiendo un poco de agua o vino para preparar una salsa sabrosa. Sirva con arroz blanco hervido y ensalada. Puede acompañarse con chutney, mango o piña.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 oz. Aproximadamente 80 porciones por envase. Calorías 13. Grasa total 4.9 g (7.5%), grasa trans 0 g, grasa saturada 0 g, colesterol 0 mg, sodio 0 mg, carbohidratos totales 17.5 g (5.8%), fibra dietética 3.3 g, azúcares 0 g, proteína 3.4 g. Vitamina A 0%, vitamina C 0%, calcio 30%, hierro 15%.<br><br><strong>Detalles del producto:</strong> Peso neto 80 oz (5 lb). Auténtico jamaicano. Producto de Jamaica."

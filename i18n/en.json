@@ -96,19 +96,34 @@
   },
   "products": [
     {
+      "id": "hardough-bread",
+      "image": "img/PanBlanco2.png",
+      "name": "Hardough Bread",
+      "category": "breads",
+      "description": "Soft, fresh, and a Jamaican staple.That classic hardough—light, fluffy, and always ready. Whether it’s toast in the morning or something quick with ackee and saltfish, it just works<br><br><strong>Product Details:</strong> Serving Size 1 slice. Calories 120. Total Fat 1g (1%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 180mg (8%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes added sugars). Protein 4g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.6mg (8%), Potassium 40mg (0%)."
+    },
+    {
+      "id": "whole-wheat-bread",
+      "image": "img/Whole2.jpeg",
+      "name": "Whole Wheat Bread",
+      "category": "breads",
+      "description": "Simple, balanced, and satisfying.Soft whole wheat bread with a smooth texture and hearty flavor. Easy, everyday bread that fits into whatever you’re making<br><br><strong>Product Details:</strong> Serving Size 1.5oz (43g). Calories 120. Total Fat 1g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 230mg (10%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes 2g added sugars). Protein 4g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1.65mg (8%), Potassium 42mg (0%)."
+    },
+    {
+      "id": "multi-grand-hardough",
+      "image": "img/semillas.png",
+      "name": "Multi Grain Hardough",
+      "category": "breads",
+      "description": "Hearty, wholesome, and full of flavor.Made with a blend of grains and seeds for a richer texture and a more filling bite—something you reach for when you want a little more substance.<br><br><strong>Product Details:</strong> Serving Size 1 slice (43g). Calories 110. Total Fat 1.5g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 190mg (8%). Total Carbohydrate 19g (7%), Dietary Fiber 3g (11%), Total Sugars 4g (includes 4g added sugars). Protein 5g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.3mg (8%), Potassium 150mg (4%)."
+    },
+    {
       "id": "banana-bread",
       "image": "img/BB.png",
       "name": "Banana Bread",
       "category": "breads",
       "description": "Moist, rich, and naturally sweet.Made with ripe bananas for that soft texture and full flavor. Feels like something you grab in the morning without thinking twice<br><br><strong>Product Details:</strong> Serving Size 85g. Calories 350. Total Fat 33g (41%), Saturated Fat 7g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 280mg (12%). Total Carbohydrate 11g (4%), Dietary Fiber 1g (4%), Total Sugars 7g (includes added sugars). Protein 3g. Vitamin D 0mcg, Calcium 7mg, Iron 1mg, Potassium 120mg."
     },
-    {
-      "id": "hardough-bread",
-      "image": "img/BreadMejorado.png",
-      "name": "Hardough Bread",
-      "category": "breads",
-      "description": "Soft, fresh, and a Jamaican staple.That classic hardough—light, fluffy, and always ready. Whether it’s toast in the morning or something quick with ackee and saltfish, it just works<br><br><strong>Product Details:</strong> Serving Size 1 slice. Calories 120. Total Fat 1g (1%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 180mg (8%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes added sugars). Protein 4g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.6mg (8%), Potassium 40mg (0%)."
-    },
+    
     {
       "id": "coconut-bread",
       "image": "img/coconutMejorada.png",
@@ -164,14 +179,7 @@
       "name": "Ginger Cake",
       "category": "bunsCakes",
       "description": "Warm, soft, and nicely spiced.A gentle ginger kick with a soft texture—easy to enjoy, especially when you just want something simple and good.<br><br><strong>Product Details:</strong> Serving Size 1 slice (142g). Calories 580. Total Fat 26g (33%), Saturated Fat 7g (35%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 200mg (9%). Total Carbohydrate 79g (29%), Dietary Fiber 2g (7%), Total Sugars 39g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 60mg (4%), Iron 2mg (10%), Potassium 4%."
-    },
-    {
-      "id": "multi-grand-hardough",
-      "image": "img/multimejjorado.png",
-      "name": "Multi Grain Hardough",
-      "category": "breads",
-      "description": "Hearty, wholesome, and full of flavor.Made with a blend of grains and seeds for a richer texture and a more filling bite—something you reach for when you want a little more substance.<br><br><strong>Product Details:</strong> Serving Size 1 slice (43g). Calories 110. Total Fat 1.5g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 190mg (8%). Total Carbohydrate 19g (7%), Dietary Fiber 3g (11%), Total Sugars 4g (includes 4g added sugars). Protein 5g. Vitamin D 0mcg, Calcium 30mg (2%), Iron 1.3mg (8%), Potassium 150mg (4%)."
-    },
+    },    
     {
       "id": "raisin-bread",
       "image": "img/raising mejorada.png",
@@ -199,14 +207,7 @@
       "name": "Tutti Fruitti",
       "category": "snacks",
       "description": "Colorful, sweet, and full of vibes.Soft bread with bits of candied fruit throughout—one of those nostalgic treats that takes you right back.<br><br><strong>Product Details:</strong> Serving Size 1 package (170g). Calories 580. Total Fat 33g (51%), Saturated Fat 13g (65%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 260mg (11%). Total Carbohydrate 70g (25%), Dietary Fiber 2g (7%), Total Sugars 37g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1mg (6%), Potassium 120mg (2%)."
-    },
-    {
-      "id": "whole-wheat-bread",
-      "image": "img/wholemejorado.png",
-      "name": "Whole Wheat Bread",
-      "category": "breads",
-      "description": "Simple, balanced, and satisfying.Soft whole wheat bread with a smooth texture and hearty flavor. Easy, everyday bread that fits into whatever you’re making<br><br><strong>Product Details:</strong> Serving Size 1.5oz (43g). Calories 120. Total Fat 1g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 230mg (10%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes 2g added sugars). Protein 4g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1.65mg (8%), Potassium 42mg (0%)."
-    },
+    },  
     {
       "id": "banana-bulla-4-pax",
       "image": "img/bbb2.png",
@@ -286,7 +287,7 @@
     }, 
     {
       "id": "curry-powder-spicy",
-      "image": "img/Curry4.png",
+      "image": "img/curryG.png",
       "name": "Curry Powder Spicy",
       "category": "seasonings",
       "description": "Bold, rich, and full of depth.Built for real flavor—the kind that carries through the whole dish.<br><br><strong>Ingredients:</strong> Turmeric, coriander, paprika, annatto, mustard, spices.<br><br><strong>Directions for use:</strong> Use approximately 1 oz curry powder per 1 lb of meat, fish, or vegetables. In a saucepan, heat 1 tablespoon of oil, add curry powder, and cook briefly. Add seasoned meat or fish and cook over heat, adding a little water or wine to make a tasty gravy. Serve with plain boiled rice and tossed salad. Can be accompanied by chutney, mango, or pineapple.<br><br><strong>Product Details:</strong> Serving size 1 oz. About 80 servings per container. Calories 13. Total fat 4.9 g (7.5%), trans fat 0 g, saturated fat 0 g, cholesterol 0 mg, sodium 0 mg, total carbohydrate 17.5 g (5.8%), dietary fiber 3.3 g, sugars 0 g, protein 3.4 g. Vitamin A 0%, vitamin C 0%, calcium 30%, iron 15%.<br><br><strong>Product Details:</strong> Net weight 80 oz (5 lbs). Authentic Jamaican. Product of Jamaica."
