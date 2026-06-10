@@ -257,15 +257,15 @@
       "description": "A Jamaican essential.Ready when you are. Once it hits the pan with saltfish, onions, and peppers, it’s already on its way.<br><br><strong>Ingredients:</strong> Ackee, Water, Salt.<br><br><strong>Product Details:</strong> About 6 Serving Per Container. Serving size 1/4 cup (53g/1.9oz). Calories 80. Total Fat 7g (8%), Saturated Fat 2.5g (12%), Trans Fat 0g. Sodium 200mg (6%). Total Carbohydrate 0g (0%). Protein 2g. Potassium 100mg (2%), Vitamin C 25%."
     },
     {
-      "id": "curry-powder-spicy",
-      "image": "img/Curry2.png",
-      "name": "Curry Powder Spicy",
-      "category": "seasonings",
-      "description": "Bold, rich, and full of depth.Built for real flavor—the kind that carries through the whole dish.<br><br><strong>Ingredients:</strong> Turmeric, coriander, paprika, annatto, mustard, spices.<br><br><strong>Directions for use:</strong> Use approximately 1 oz curry powder per 1 lb of meat, fish, or vegetables. In a saucepan, heat 1 tablespoon of oil, add curry powder, and cook briefly. Add seasoned meat or fish and cook over heat, adding a little water or wine to make a tasty gravy. Serve with plain boiled rice and tossed salad. Can be accompanied by chutney, mango, or pineapple.<br><br><strong>Product Details:</strong> Serving size 1 oz. About 80 servings per container. Calories 13. Total fat 4.9 g (7.5%), trans fat 0 g, saturated fat 0 g, cholesterol 0 mg, sodium 0 mg, total carbohydrate 17.5 g (5.8%), dietary fiber 3.3 g, sugars 0 g, protein 3.4 g. Vitamin A 0%, vitamin C 0%, calcium 30%, iron 15%.<br><br><strong>Product Details:</strong> Net weight 80 oz (5 lbs). Authentic Jamaican. Product of Jamaica."
-    },
-    {
       "id": "mild-jerk-seasoning",
       "image": "img/mildJerk3.png",
+      "name": "Mild Jerk Seasoning",
+      "category": "seasonings",
+      "description": "Flavorful without too much heat.All the taste of jerk, just dialed back a bit so you can use it anytime.<br><br><strong>Suggested use:</strong> For each pound of meat, fish, or poultry, use 2-3 teaspoons of seasoning. Rub in and leave to marinate for about two hours, then grill, roast, fry, or use for stew. Can also be used on vegetables with scrambled eggs and soups.<br><br><strong>Storage:</strong> Do not use if the band around the cap is missing or broken. Store in a cool, dry place. Refrigerate after opening.<br><br><strong>Ingredients:</strong> Scallion, hot pepper, salt, spices, acetic acid, thyme, 0.033% potassium sorbate as preservative.<br><br><strong>Product Details:</strong> Serving size 1 oz (28 g). About 136 servings per container. Calories 5. Total fat 0 g, saturated fat 0 g, trans fat 0 g, cholesterol 0 mg, sodium 550 mg (22%), total carbohydrate 0 g, dietary fiber 0 g, sugars 0 g, protein 0 g. Vitamin A 0%, vitamin C 0%, calcium 2%, iron 10%.<br><br><strong>Product Details:</strong> Net weight 136 oz (8.5 lbs) / 3.85 kg. Authentic Jamaican. Product of Jamaica."
+    },
+    {
+      "id": "mildG-jerk-seasoning",
+      "image": "img/mildJerkGrande.png",
       "name": "Mild Jerk Seasoning",
       "category": "seasonings",
       "description": "Flavorful without too much heat.All the taste of jerk, just dialed back a bit so you can use it anytime.<br><br><strong>Suggested use:</strong> For each pound of meat, fish, or poultry, use 2-3 teaspoons of seasoning. Rub in and leave to marinate for about two hours, then grill, roast, fry, or use for stew. Can also be used on vegetables with scrambled eggs and soups.<br><br><strong>Storage:</strong> Do not use if the band around the cap is missing or broken. Store in a cool, dry place. Refrigerate after opening.<br><br><strong>Ingredients:</strong> Scallion, hot pepper, salt, spices, acetic acid, thyme, 0.033% potassium sorbate as preservative.<br><br><strong>Product Details:</strong> Serving size 1 oz (28 g). About 136 servings per container. Calories 5. Total fat 0 g, saturated fat 0 g, trans fat 0 g, cholesterol 0 mg, sodium 550 mg (22%), total carbohydrate 0 g, dietary fiber 0 g, sugars 0 g, protein 0 g. Vitamin A 0%, vitamin C 0%, calcium 2%, iron 10%.<br><br><strong>Product Details:</strong> Net weight 136 oz (8.5 lbs) / 3.85 kg. Authentic Jamaican. Product of Jamaica."
@@ -283,6 +283,13 @@
       "name": "Hot Jerk Seasoning",
       "category": "seasonings",
       "description": "Real spice. Real heat.This one doesn’t play—proper heat with that deep, smoky flavor.<br><br><strong>Suggested use:</strong> For each pound of meat, fish, or poultry, use 2-3 teaspoons of seasoning. Rub in and leave to marinate for about two hours, then grill, roast, fry, or use for stew. Can also be used on vegetables with scrambled eggs and soups.<br><br><strong>Storage:</strong> Do not use if the band around the cap is missing or broken. Store in a cool, dry place. Refrigerate after opening.<br><br><strong>Ingredients:</strong> Scallion, hot pepper, salt, spices, acetic acid, thyme, 0.033% potassium sorbate as preservative.<br><br><strong>Product Details:</strong> Serving size 1 oz (28 g). About 136 servings per container. Calories 5. Total fat 0 g, saturated fat 0 g, trans fat 0 g, cholesterol 0 mg, sodium 550 mg (22%), total carbohydrate 0 g, dietary fiber 0 g, sugars 0 g, protein 0 g. Vitamin A 0%, vitamin C 0%, calcium 2%, iron 10%.<br><br><strong>Product Details:</strong> Net weight 136 oz (8.5 lbs) / 3.85 kg. Authentic Jamaican. Product of Jamaica."
+    }, 
+    {
+      "id": "curry-powder-spicy",
+      "image": "img/Curry4.png",
+      "name": "Curry Powder Spicy",
+      "category": "seasonings",
+      "description": "Bold, rich, and full of depth.Built for real flavor—the kind that carries through the whole dish.<br><br><strong>Ingredients:</strong> Turmeric, coriander, paprika, annatto, mustard, spices.<br><br><strong>Directions for use:</strong> Use approximately 1 oz curry powder per 1 lb of meat, fish, or vegetables. In a saucepan, heat 1 tablespoon of oil, add curry powder, and cook briefly. Add seasoned meat or fish and cook over heat, adding a little water or wine to make a tasty gravy. Serve with plain boiled rice and tossed salad. Can be accompanied by chutney, mango, or pineapple.<br><br><strong>Product Details:</strong> Serving size 1 oz. About 80 servings per container. Calories 13. Total fat 4.9 g (7.5%), trans fat 0 g, saturated fat 0 g, cholesterol 0 mg, sodium 0 mg, total carbohydrate 17.5 g (5.8%), dietary fiber 3.3 g, sugars 0 g, protein 3.4 g. Vitamin A 0%, vitamin C 0%, calcium 30%, iron 15%.<br><br><strong>Product Details:</strong> Net weight 80 oz (5 lbs). Authentic Jamaican. Product of Jamaica."
     }
   ]
 }
