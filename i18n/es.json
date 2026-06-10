@@ -42,6 +42,7 @@
     "title": "Nuestros Productos",
     "filtersLabel": "Filtros de categoría de producto",
     "featuredProducts": "Productos destacados",
+    "productDetails": "Detalles del producto",
     "all": "Todos",
     "imagePending": "",
     "categories": {
@@ -99,32 +100,32 @@
       "image": "img/BB.png",
       "name": "Pan de banana",
       "category": "breads",
-      "description": "Húmedo, rico y naturalmente dulce. Elaborado con bananas maduras para lograr una textura suave y todo su sabor. Es de esos panes que apetece disfrutar por la mañana sin pensarlo dos veces.<br><br><strong>Información nutricional:</strong> Tamaño de porción 85 g. Calorías 350. Grasa total 33 g (41%), grasa saturada 7 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 280 mg (12%). Carbohidratos totales 11 g (4%), fibra dietética 1 g (4%), azúcares totales 7 g (incluye azúcares añadidos). Proteína 3 g. Vitamina D 0 mcg, calcio 7 mg, hierro 1 mg, potasio 120 mg."
+      "description": "Húmedo, rico y naturalmente dulce. Elaborado con bananas maduras para lograr una textura suave y todo su sabor. Es de esos panes que apetece disfrutar por la mañana sin pensarlo dos veces.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 85 g. Calorías 350. Grasa total 33 g (41%), grasa saturada 7 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 280 mg (12%). Carbohidratos totales 11 g (4%), fibra dietética 1 g (4%), azúcares totales 7 g (incluye azúcares añadidos). Proteína 3 g. Vitamina D 0 mcg, calcio 7 mg, hierro 1 mg, potasio 120 mg."
     },
     {
       "id": "hardough-bread",
       "image": "img/BreadMejorado.png",
       "name": "Pan Hardough",
       "category": "breads",
-      "description": "Suave, fresco y un clásico jamaicano. El hardough tradicional: ligero, esponjoso y siempre listo. Ya sea tostado por la mañana o acompañado de ackee con bacalao, simplemente funciona.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 rebanada. Calorías 120. Grasa total 1 g (1%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 180 mg (8%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 30 mg (2%), hierro 1.6 mg (8%), potasio 40 mg (0%)."
+      "description": "Suave, fresco y un clásico jamaicano. El hardough tradicional: ligero, esponjoso y siempre listo. Ya sea tostado por la mañana o acompañado de ackee con bacalao, simplemente funciona.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada. Calorías 120. Grasa total 1 g (1%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 180 mg (8%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 30 mg (2%), hierro 1.6 mg (8%), potasio 40 mg (0%)."
     },
     {
       "id": "coconut-bread",
       "image": "img/coconutMejorada.png",
       "name": "Pan de coco",
       "category": "breads",
-      "description": "Suave, ligeramente dulce y lleno de sabor isleño. Húmedo y con auténtico sabor a coco; uno de esos panes que no necesita mucho, solo un momento tranquilo y una buena taza de café.<br><br><strong>Información nutricional:</strong> Tamaño de porción 4 oz (113 g). Calorías 140. Grasa total 2.5 g (4%), grasa saturada 1 g (5%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 150 mg (6%). Carbohidratos totales 28 g (10%), fibra dietética 3 g (12%), azúcares totales 9 g (incluye 4 g de azúcares añadidos). Proteína 4 g. Vitamina A 2%, vitamina C 0%, hierro 4%, calcio 4%."
+      "description": "Suave, ligeramente dulce y lleno de sabor isleño. Húmedo y con auténtico sabor a coco; uno de esos panes que no necesita mucho, solo un momento tranquilo y una buena taza de café.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 4 oz (113 g). Calorías 140. Grasa total 2.5 g (4%), grasa saturada 1 g (5%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 150 mg (6%). Carbohidratos totales 28 g (10%), fibra dietética 3 g (12%), azúcares totales 9 g (incluye 4 g de azúcares añadidos). Proteína 4 g. Vitamina A 2%, vitamina C 0%, hierro 4%, calcio 4%."
     },
     {
       "id": "coconut-roll",
-      "image": "img/CoconutRoll.png",
+      "image": "img/coconutRoll2.png",
       "name": "Rollo de coco",
       "category": "snacks",
       "description": "Dulce, suave y fácil de disfrutar. Un clásico rollo relleno de coco con ese sabor de siempre; lo tomas y desaparece antes de que te des cuenta.<br><br><strong>Detalles del producto:</strong> Formato 4 oz x 24."
     },
     {
       "id": "cinnamon-roll",
-      "image": "img/CinamonRoll.png",
+      "image": "img/canela2.png",
       "name": "Rollo de canela",
       "category": "snacks",
       "description": "Suave, dulce y lleno de especias. Reconfortante y delicioso, con ese cálido sabor a canela presente en cada bocado.<br><br><strong>Detalles del producto:</strong> Formato 5 oz x 36."
@@ -134,14 +135,14 @@
       "image": "img/cornMejorada.png",
       "name": "Pan de maíz",
       "category": "breads",
-      "description": "Dorado, suave y con el dulzor justo. Cálido, sencillo y de los que siempre encuentran su lugar en la mesa.<br><br><strong>Información nutricional:</strong> Tamaño de porción 4 oz (113 g). Calorías 140. Grasa total 2.5 g (4%), grasa saturada 1 g (5%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 150 mg (6%). Carbohidratos totales 28 g (10%), fibra dietética 3 g (12%), azúcares totales 9 g (incluye 4 g de azúcares añadidos). Proteína 4 g. Vitamina A 2%, vitamina C 0%, hierro 4%, calcio 4%."
+      "description": "Dorado, suave y con el dulzor justo. Cálido, sencillo y de los que siempre encuentran su lugar en la mesa.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 4 oz (113 g). Calorías 140. Grasa total 2.5 g (4%), grasa saturada 1 g (5%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 150 mg (6%). Carbohidratos totales 28 g (10%), fibra dietética 3 g (12%), azúcares totales 9 g (incluye 4 g de azúcares añadidos). Proteína 4 g. Vitamina A 2%, vitamina C 0%, hierro 4%, calcio 4%."
     },
     {
       "id": "jamaican-fruit-cake",
       "image": "img/FruitC_SF.png",
       "name": "Pastel jamaicano de frutas",
       "category": "bunsCakes",
-      "description": "Rico, denso y lleno de sabor auténtico. Elaborado con frutas y especias para lograr ese sabor profundo e inconfundible. El tipo de pastel que aparece en las celebraciones y nunca decepciona.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 rebanada (122 g). Calorías 350. Grasa total 33 g (41%), grasa saturada 14 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 210 mg (9%). Carbohidratos totales 70 g (26%), fibra dietética 3 g (6%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 8 g. Vitamina D 0 mcg, calcio 70 mg (6%), hierro 3 mg (16%), potasio 2%."
+      "description": "Rico, denso y lleno de sabor auténtico. Elaborado con frutas y especias para lograr ese sabor profundo e inconfundible. El tipo de pastel que aparece en las celebraciones y nunca decepciona.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (122 g). Calorías 350. Grasa total 33 g (41%), grasa saturada 14 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 210 mg (9%). Carbohidratos totales 70 g (26%), fibra dietética 3 g (6%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 8 g. Vitamina D 0 mcg, calcio 70 mg (6%), hierro 3 mg (16%), potasio 2%."
     },
     {
       "id": "rum-raisin-cake",
@@ -155,35 +156,35 @@
       "image": "img/CarrotCake.png",
       "name": "Carrot Cake",
       "category": "bunsCakes",
-      "description": "Suave, dulce y con ese sabor casero de zanahoria y especias. Un pastel práctico de 4 oz, perfecto para vender como porción individual sin perder el toque tradicional.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 paquete (142 g). Calorías 350. Grasa total 32 g (41%), grasa saturada 7 g (33%), grasa trans 0 g. Colesterol 50 mg (31%). Sodio 470 mg (20%). Carbohidratos totales 70 g (28%), fibra dietética 2 g (8%), azúcares totales 37 g (incluye 37 g de azúcares añadidos, 74%). Proteína 3 g. Vitamina D 0.4 mcg (4%), calcio 70 mg (6%), hierro 2.5 mg (16%), potasio 120 mg (2%).<br><br><strong>Detalles del producto:</strong> Peso neto 4 oz. Formato 4 oz x 50. Contiene trigo y soya."
+      "description": "Suave, dulce y con ese sabor casero de zanahoria y especias. Un pastel práctico de 4 oz, perfecto para vender como porción individual sin perder el toque tradicional.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 paquete (142 g). Calorías 350. Grasa total 32 g (41%), grasa saturada 7 g (33%), grasa trans 0 g. Colesterol 50 mg (31%). Sodio 470 mg (20%). Carbohidratos totales 70 g (28%), fibra dietética 2 g (8%), azúcares totales 37 g (incluye 37 g de azúcares añadidos, 74%). Proteína 3 g. Vitamina D 0.4 mcg (4%), calcio 70 mg (6%), hierro 2.5 mg (16%), potasio 120 mg (2%).<br><br><strong>Detalles del producto:</strong> Peso neto 4 oz. Formato 4 oz x 50. Contiene trigo y soya."
     },
     {
       "id": "ginger-cake",
       "image": "img/GingerMejorada .png",
       "name": "Pastel de jengibre",
       "category": "bunsCakes",
-      "description": "Cálido, suave y delicadamente especiado. Un toque de jengibre equilibrado con una textura tierna; perfecto cuando apetece algo sencillo y realmente bueno.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 rebanada (142 g). Calorías 580. Grasa total 26 g (33%), grasa saturada 7 g (35%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 200 mg (9%). Carbohidratos totales 79 g (29%), fibra dietética 2 g (7%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 6 g. Vitamina D 0 mcg, calcio 60 mg (4%), hierro 2 mg (10%), potasio 4%."
+      "description": "Cálido, suave y delicadamente especiado. Un toque de jengibre equilibrado con una textura tierna; perfecto cuando apetece algo sencillo y realmente bueno.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (142 g). Calorías 580. Grasa total 26 g (33%), grasa saturada 7 g (35%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 200 mg (9%). Carbohidratos totales 79 g (29%), fibra dietética 2 g (7%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 6 g. Vitamina D 0 mcg, calcio 60 mg (4%), hierro 2 mg (10%), potasio 4%."
     },
     {
       "id": "multi-grand-hardough",
       "image": "img/multimejjorado.png",
       "name": "Multi Grain Hardough",
       "category": "breads",
-      "description": "Sustancioso, nutritivo y lleno de sabor. Elaborado con una mezcla de granos y semillas que aporta una textura más rica y un bocado más completo; ideal cuando buscas algo con más cuerpo.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 rebanada (43 g). Calorías 110. Grasa total 1.5 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 190 mg (8%). Carbohidratos totales 19 g (7%), fibra dietética 3 g (11%), azúcares totales 4 g (incluye 4 g de azúcares añadidos). Proteína 5 g. Vitamina D 0 mcg, calcio 30 mg (2%), hierro 1.3 mg (8%), potasio 150 mg (4%)."
+      "description": "Sustancioso, nutritivo y lleno de sabor. Elaborado con una mezcla de granos y semillas que aporta una textura más rica y un bocado más completo; ideal cuando buscas algo con más cuerpo.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (43 g). Calorías 110. Grasa total 1.5 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 190 mg (8%). Carbohidratos totales 19 g (7%), fibra dietética 3 g (11%), azúcares totales 4 g (incluye 4 g de azúcares añadidos). Proteína 5 g. Vitamina D 0 mcg, calcio 30 mg (2%), hierro 1.3 mg (8%), potasio 150 mg (4%)."
     },
     {
       "id": "raisin-bread",
       "image": "img/raising mejorada.png",
       "name": "Pan de pasas",
       "category": "breads",
-      "description": "Suave y con un toque dulce. Repleto de pasas y mucho sabor; especialmente delicioso cuando se calienta un poco y se disfruta con calma.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1/3 de pan (114 g). Calorías 180. Grasa total 3 g (4%), grasa saturada 1 g (4%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 213 mg (9%). Carbohidratos totales 35 g (12%), fibra dietética 2 g (6%), azúcares totales 7 g (incluye 3 g de azúcares añadidos). Proteína 5 g. Calcio 50 mg (5%), hierro 0.8 mg (4%), potasio 130 mg (2%)."
+      "description": "Suave y con un toque dulce. Repleto de pasas y mucho sabor; especialmente delicioso cuando se calienta un poco y se disfruta con calma.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1/3 de pan (114 g). Calorías 180. Grasa total 3 g (4%), grasa saturada 1 g (4%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 213 mg (9%). Carbohidratos totales 35 g (12%), fibra dietética 2 g (6%), azúcares totales 7 g (incluye 3 g de azúcares añadidos). Proteína 5 g. Calcio 50 mg (5%), hierro 0.8 mg (4%), potasio 130 mg (2%)."
     },
     {
       "id": "spice-bun-28oz",
       "image": "img/SpiceB_P.png",
       "name": "Spice Bun 28 oz",
       "category": "breads",
-      "description": "Dulce, especiado y lleno de tradición. Rico en especias cálidas y con ese sabor característico que ya conoces. Córtalo, acompáñalo con queso y hará exactamente lo que esperas.<br><br><strong>Información nutricional:</strong> Tamaño de porción 53 g por rebanada de 13 mm. Aproximadamente 15 porciones. Calorías 160. Calorías de grasa 15. Grasa total 1.5 g (2%), grasa saturada 0 g, grasa trans 0 g. Colesterol 0 mg (0%). Sodio 90 mg (4%). Carbohidratos totales 34 g (11%), fibra dietética menos de 1 g (3%), azúcares totales 16 g. Proteína 3 g. Grasa poliinsaturada 0 g, grasa monoinsaturada 0.5 g. Vitamina A 0%, vitamina C 0%, hierro 8%, calcio 2%.<br><br><strong>Detalles del producto:</strong> Peso neto 794 g / 28 oz. Libre de bromato. Contiene trigo y soya."
+      "description": "Dulce, especiado y lleno de tradición. Rico en especias cálidas y con ese sabor característico que ya conoces. Córtalo, acompáñalo con queso y hará exactamente lo que esperas.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 53 g por rebanada de 13 mm. Aproximadamente 15 porciones. Calorías 160. Calorías de grasa 15. Grasa total 1.5 g (2%), grasa saturada 0 g, grasa trans 0 g. Colesterol 0 mg (0%). Sodio 90 mg (4%). Carbohidratos totales 34 g (11%), fibra dietética menos de 1 g (3%), azúcares totales 16 g. Proteína 3 g. Grasa poliinsaturada 0 g, grasa monoinsaturada 0.5 g. Vitamina A 0%, vitamina C 0%, hierro 8%, calcio 2%.<br><br><strong>Detalles del producto:</strong> Peso neto 794 g / 28 oz. Libre de bromato. Contiene trigo y soya."
     },
     {
       "id": "spice-bun",
@@ -194,35 +195,35 @@
     },
     {
       "id": "tutti-fruitti",
-      "image": "img/Tutti.png",
+      "image": "img/tuttiFrutti2.png",
       "name": "Tutti Fruitti",
       "category": "snacks",
-      "description": "Colorido, dulce y lleno de buena vibra. Pan suave con trozos de frutas confitadas; uno de esos sabores nostálgicos que te transportan al instante.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 paquete (170 g). Calorías 580. Grasa total 33 g (51%), grasa saturada 13 g (65%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 260 mg (11%). Carbohidratos totales 70 g (25%), fibra dietética 2 g (7%), azúcares totales 37 g (incluye azúcares añadidos). Proteína 6 g. Vitamina D 0 mcg, calcio 80 mg (6%), hierro 1 mg (6%), potasio 120 mg (2%)."
+      "description": "Colorido, dulce y lleno de buena vibra. Pan suave con trozos de frutas confitadas; uno de esos sabores nostálgicos que te transportan al instante.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 paquete (170 g). Calorías 580. Grasa total 33 g (51%), grasa saturada 13 g (65%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 260 mg (11%). Carbohidratos totales 70 g (25%), fibra dietética 2 g (7%), azúcares totales 37 g (incluye azúcares añadidos). Proteína 6 g. Vitamina D 0 mcg, calcio 80 mg (6%), hierro 1 mg (6%), potasio 120 mg (2%)."
     },
     {
       "id": "whole-wheat-bread",
       "image": "img/wholemejorado.png",
       "name": "Pan integral",
       "category": "breads",
-      "description": "Simple, equilibrado y satisfactorio. Pan integral suave, con textura ligera y un sabor lleno de cuerpo. Un pan de todos los días que encaja perfectamente con cualquier comida.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1.5 oz (43 g). Calorías 120. Grasa total 1 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 230 mg (10%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye 2 g de azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 80 mg (6%), hierro 1.65 mg (8%), potasio 42 mg (0%)."
+      "description": "Simple, equilibrado y satisfactorio. Pan integral suave, con textura ligera y un sabor lleno de cuerpo. Un pan de todos los días que encaja perfectamente con cualquier comida.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1.5 oz (43 g). Calorías 120. Grasa total 1 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 230 mg (10%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye 2 g de azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 80 mg (6%), hierro 1.65 mg (8%), potasio 42 mg (0%)."
     },
     {
       "id": "banana-bulla-4-pax",
-      "image": "img/bbb.png",
+      "image": "img/bbb2.png",
       "name": "Banana Bulla (Pax to Packs)",
       "category": "traditional",
       "description": "Bulla tradicional con un toque suave de banana. Firme, dulce y fácil de compartir, ideal para una merienda rápida con sabor jamaicano auténtico.<br><br><strong>Detalles del producto:</strong> Paquete de 4 unidades. 12 unidades por caja."
     },
     {
       "id": "ginger-bulla-4-pax",
-      "image": "img/GingerBulla.png",
+      "image": "img/GingerBulla2.png",
       "name": "Ginger Bulla (Pax to Packs)",
       "category": "traditional",
       "description": "Bulla especiada con el calor clásico del jengibre. Un bocado firme, aromático y lleno de carácter, perfecto para acompañar con queso o disfrutar solo.<br><br><strong>Detalles del producto:</strong> Paquete de 4 unidades. 12 unidades por caja."
     },
     {
       "id": "coconut-bulla-4-pax",
-      "image": "img/CoconutB.png",
+      "image": "img/CoconutB2.png",
       "name": "Coconut Bulla (Pax to Packs)",
       "category": "traditional",
       "description": "Bulla tradicional con un suave sabor a coco. Ligeramente dulce y con ese toque tropical que lo hace perfecto para una merienda rápida o para acompañar con queso.<br><br><strong>Detalles del producto:</strong> Paquete de 4 unidades. 12 unidades por caja."
@@ -253,28 +254,28 @@
       "image": "img/AckeeModificada.png",
       "name": "Ackee en salmuera",
       "category": "traditional",
-      "description": "Un imprescindible jamaicano. Listo cuando tú lo estés. En cuanto llega a la sartén con bacalao, cebolla y pimientos, todo empieza a tomar forma.<br><br><strong>Ingredientes:</strong> Ackee, agua, sal.<br><br><strong>Información nutricional:</strong> Aproximadamente 6 porciones por envase. Tamaño de porción 1/4 taza (53 g/1.9 oz). Calorías 80. Grasa total 7 g (8%), grasa saturada 2.5 g (12%), grasa trans 0 g. Sodio 200 mg (6%). Carbohidratos totales 0 g (0%). Proteína 2 g. Potasio 100 mg (2%), vitamina C 25%."
+      "description": "Un imprescindible jamaicano. Listo cuando tú lo estés. En cuanto llega a la sartén con bacalao, cebolla y pimientos, todo empieza a tomar forma.<br><br><strong>Ingredientes:</strong> Ackee, agua, sal.<br><br><strong>Detalles del producto:</strong> Aproximadamente 6 porciones por envase. Tamaño de porción 1/4 taza (53 g/1.9 oz). Calorías 80. Grasa total 7 g (8%), grasa saturada 2.5 g (12%), grasa trans 0 g. Sodio 200 mg (6%). Carbohidratos totales 0 g (0%). Proteína 2 g. Potasio 100 mg (2%), vitamina C 25%."
     },
     {
       "id": "curry-powder-spicy",
       "image": "img/Curry.jpeg",
       "name": "Curry Powder Spicy",
       "category": "seasonings",
-      "description": "Intenso, rico y lleno de profundidad. Creado para aportar un sabor auténtico que se mantiene en todo el plato.<br><br><strong>Ingredientes:</strong> Cúrcuma, cilantro, paprika, achiote, mostaza y especias.<br><br><strong>Modo de empleo:</strong> Utilice aproximadamente 1 oz de curry por cada 1 lb de carne, pescado o vegetales. En una cacerola, caliente 1 cucharada de aceite, añada el curry y cocine brevemente. Agregue la carne o el pescado sazonado y cocine, añadiendo un poco de agua o vino para preparar una salsa sabrosa. Sirva con arroz blanco hervido y ensalada. Puede acompañarse con chutney, mango o piña.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 oz. Aproximadamente 80 porciones por envase. Calorías 13. Grasa total 4.9 g (7.5%), grasa trans 0 g, grasa saturada 0 g, colesterol 0 mg, sodio 0 mg, carbohidratos totales 17.5 g (5.8%), fibra dietética 3.3 g, azúcares 0 g, proteína 3.4 g. Vitamina A 0%, vitamina C 0%, calcio 30%, hierro 15%.<br><br><strong>Detalles del producto:</strong> Peso neto 80 oz (5 lb). Auténtico jamaicano. Producto de Jamaica."
+      "description": "Intenso, rico y lleno de profundidad. Creado para aportar un sabor auténtico que se mantiene en todo el plato.<br><br><strong>Ingredientes:</strong> Cúrcuma, cilantro, paprika, achiote, mostaza y especias.<br><br><strong>Modo de empleo:</strong> Utilice aproximadamente 1 oz de curry por cada 1 lb de carne, pescado o vegetales. En una cacerola, caliente 1 cucharada de aceite, añada el curry y cocine brevemente. Agregue la carne o el pescado sazonado y cocine, añadiendo un poco de agua o vino para preparar una salsa sabrosa. Sirva con arroz blanco hervido y ensalada. Puede acompañarse con chutney, mango o piña.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 oz. Aproximadamente 80 porciones por envase. Calorías 13. Grasa total 4.9 g (7.5%), grasa trans 0 g, grasa saturada 0 g, colesterol 0 mg, sodio 0 mg, carbohidratos totales 17.5 g (5.8%), fibra dietética 3.3 g, azúcares 0 g, proteína 3.4 g. Vitamina A 0%, vitamina C 0%, calcio 30%, hierro 15%.<br><br><strong>Detalles del producto:</strong> Peso neto 80 oz (5 lb). Auténtico jamaicano. Producto de Jamaica."
     },
     {
       "id": "mild-jerk-seasoning",
       "image": "img/mildJerk.png",
       "name": "Mild Jerk Seasoning",
       "category": "seasonings",
-      "description": "Lleno de sabor sin demasiado picante. Todo el sabor del jerk jamaicano, pero más suave para usarlo en cualquier momento.<br><br><strong>Uso sugerido:</strong> Para cada libra de carne, pescado o ave, utilice 2-3 cucharaditas de condimento. Frote y deje marinar durante aproximadamente dos horas; luego cocine a la parrilla, ase, fría o use para guisos. También puede utilizarse en vegetales, huevos revueltos y sopas.<br><br><strong>Conservación:</strong> No utilizar si la banda alrededor de la tapa está rota o falta. Conservar en un lugar fresco y seco. Refrigerar después de abrir.<br><br><strong>Ingredientes:</strong> Cebolleta, pimiento picante, sal, especias, ácido acético, tomillo, 0.033% de sorbato de potasio como conservante.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 oz (28 g). Aproximadamente 136 porciones por envase. Calorías 5. Grasa total 0 g, grasa saturada 0 g, grasa trans 0 g, colesterol 0 mg, sodio 550 mg (22%), carbohidratos totales 0 g, fibra dietética 0 g, azúcares 0 g, proteína 0 g. Vitamina A 0%, vitamina C 0%, calcio 2%, hierro 10%.<br><br><strong>Detalles del producto:</strong> Peso neto 136 oz (8.5 lb) / 3.85 kg. Auténtico jamaicano. Producto de Jamaica."
+      "description": "Lleno de sabor sin demasiado picante. Todo el sabor del jerk jamaicano, pero más suave para usarlo en cualquier momento.<br><br><strong>Uso sugerido:</strong> Para cada libra de carne, pescado o ave, utilice 2-3 cucharaditas de condimento. Frote y deje marinar durante aproximadamente dos horas; luego cocine a la parrilla, ase, fría o use para guisos. También puede utilizarse en vegetales, huevos revueltos y sopas.<br><br><strong>Conservación:</strong> No utilizar si la banda alrededor de la tapa está rota o falta. Conservar en un lugar fresco y seco. Refrigerar después de abrir.<br><br><strong>Ingredientes:</strong> Cebolleta, pimiento picante, sal, especias, ácido acético, tomillo, 0.033% de sorbato de potasio como conservante.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 oz (28 g). Aproximadamente 136 porciones por envase. Calorías 5. Grasa total 0 g, grasa saturada 0 g, grasa trans 0 g, colesterol 0 mg, sodio 550 mg (22%), carbohidratos totales 0 g, fibra dietética 0 g, azúcares 0 g, proteína 0 g. Vitamina A 0%, vitamina C 0%, calcio 2%, hierro 10%.<br><br><strong>Detalles del producto:</strong> Peso neto 136 oz (8.5 lb) / 3.85 kg. Auténtico jamaicano. Producto de Jamaica."
     },
     {
       "id": "hot-jerk-seasoning",
       "image": "img/HotJerk.jpeg",
       "name": "Hot Jerk Seasoning",
       "category": "seasonings",
-      "description": "Auténtico picante. Auténtico sabor. Este sí viene con fuerza: picante intenso acompañado de ese profundo sabor ahumado tan característico.<br><br><strong>Uso sugerido:</strong> Para cada libra de carne, pescado o ave, utilice 2-3 cucharaditas de condimento. Frote y deje marinar durante aproximadamente dos horas; luego cocine a la parrilla, ase, fría o use para guisos. También puede utilizarse en vegetales, huevos revueltos y sopas.<br><br><strong>Conservación:</strong> No utilizar si la banda alrededor de la tapa está rota o falta. Conservar en un lugar fresco y seco. Refrigerar después de abrir.<br><br><strong>Ingredientes:</strong> Cebolleta, pimiento picante, sal, especias, ácido acético, tomillo, 0.033% de sorbato de potasio como conservante.<br><br><strong>Información nutricional:</strong> Tamaño de porción 1 oz (28 g). Aproximadamente 136 porciones por envase. Calorías 5. Grasa total 0 g, grasa saturada 0 g, grasa trans 0 g, colesterol 0 mg, sodio 550 mg (22%), carbohidratos totales 0 g, fibra dietética 0 g, azúcares 0 g, proteína 0 g. Vitamina A 0%, vitamina C 0%, calcio 2%, hierro 10%.<br><br><strong>Detalles del producto:</strong> Peso neto 136 oz (8.5 lb) / 3.85 kg. Auténtico jamaicano. Producto de Jamaica."
+      "description": "Auténtico picante. Auténtico sabor. Este sí viene con fuerza: picante intenso acompañado de ese profundo sabor ahumado tan característico.<br><br><strong>Uso sugerido:</strong> Para cada libra de carne, pescado o ave, utilice 2-3 cucharaditas de condimento. Frote y deje marinar durante aproximadamente dos horas; luego cocine a la parrilla, ase, fría o use para guisos. También puede utilizarse en vegetales, huevos revueltos y sopas.<br><br><strong>Conservación:</strong> No utilizar si la banda alrededor de la tapa está rota o falta. Conservar en un lugar fresco y seco. Refrigerar después de abrir.<br><br><strong>Ingredientes:</strong> Cebolleta, pimiento picante, sal, especias, ácido acético, tomillo, 0.033% de sorbato de potasio como conservante.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 oz (28 g). Aproximadamente 136 porciones por envase. Calorías 5. Grasa total 0 g, grasa saturada 0 g, grasa trans 0 g, colesterol 0 mg, sodio 550 mg (22%), carbohidratos totales 0 g, fibra dietética 0 g, azúcares 0 g, proteína 0 g. Vitamina A 0%, vitamina C 0%, calcio 2%, hierro 10%.<br><br><strong>Detalles del producto:</strong> Peso neto 136 oz (8.5 lb) / 3.85 kg. Auténtico jamaicano. Producto de Jamaica."
     },
     {
       "id": "walkerswood-mild-jerk-seasoning-10oz",

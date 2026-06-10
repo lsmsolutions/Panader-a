@@ -800,7 +800,7 @@ function renderProductGrid() {
             <p>${content.summary}</p>
             ${content.detailsBody ? `
               <details class="product-details">
-                <summary>${content.detailsLabel}</summary>
+                <summary>${escapeHtml(i18n.catalog.productDetails || content.detailsLabel)}</summary>
                 <div class="product-details-body">${content.detailsBody}</div>
               </details>
             ` : ""}
