@@ -648,12 +648,21 @@ h3 {
   justify-content: center;
   background: #ffffff;
   padding: 1rem;
+  overflow: hidden;
 }
 
 .product-media img {
   width: 84%;
   height: 84%;
   object-fit: contain;
+  transition: transform 180ms ease;
+  cursor: zoom-in;
+  transform-origin: center;
+}
+
+.product-card:hover .product-media img,
+.product-media:active img {
+  transform: scale(1.12);
 }
 
 .product-media-placeholder {
@@ -683,6 +692,7 @@ h3 {
 }
 
 .product-copy h3 {
+  font-size: 1.4rem;
   margin-top: 0.9rem;
 }
 

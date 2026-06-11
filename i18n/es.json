@@ -297,6 +297,34 @@
       "name": "Jerk Seasoning",
       "category": "seasonings",
       "description": "Intenso, ahumado e inconfundiblemente jamaicano. Una sabrosa mezcla de hierbas y especias que aporta el auténtico sabor jerk a carnes, aves, pescados y vegetales.<br><br><strong>Detalles del producto:</strong> Peso neto 226 g (8 oz). Sin MSG. No contiene trigo. Auténtico jamaicano."
+    },
+    {
+      "id": "jamaican-curry-seasoning",
+      "image": "img/curryJamaicano.png",
+      "name": "Curry Jamaicano",
+      "category": "seasonings",
+      "description": "Rico, aromático y lleno de auténtico sabor isleño. Una mezcla tradicional de especias jamaicanas elaborada para aportar profundidad, color y sabor a carnes, mariscos y vegetales.<br><br><strong>Detalles del producto:</strong> Peso neto 170 g (6 oz). Sin MSG. No contiene trigo. Auténtico jamaicano."
+    },
+    {
+      "id": "oxtail-seasoning",
+      "image": "img/Oxtail.png",
+      "name": "Sazonador para Cola de Buey",
+      "category": "seasonings",
+      "description": "Sabroso, intenso y lleno del auténtico sabor caribeño. Elaborado especialmente para realzar el sabor profundo y tradicional de la cola de buey y otros platos cocinados a fuego lento, aportando el auténtico toque jamaicano a cada receta.<br><br><strong>Detalles del producto:</strong> Peso neto 226 g (8 oz). Sin MSG. No contiene trigo. Auténtico jamaicano."
+    },
+    {
+      "id": "hot-indian-curry-seasoning",
+      "image": "img/CurryIndio.png",
+      "name": "Curry Indio Picante",
+      "category": "seasonings",
+      "description": "Intenso, picante y lleno de auténtico sabor isleño. Elaborado con una mezcla de especias aromáticas y pimienta de cayena para aportar un sabor rico y vibrante a carnes, mariscos y vegetales.<br><br><strong>Detalles del producto:</strong> Peso neto 170 g (6 oz). Sin MSG. No contiene trigo. Auténtico jamaicano."
+    },
+    {
+      "id": "pork-seasoning",
+      "image": "img/Pork.png",
+      "name": "Sazonador para Cerdo",
+      "category": "seasonings",
+      "description": "Intenso, sabroso y lleno del auténtico sabor isleño. Una mezcla equilibrada de hierbas y especias elaborada especialmente para realzar los platos de cerdo y aportar el tradicional sabor jamaicano a cada receta.<br><br><strong>Detalles del producto:</strong> Peso neto 226 g (8 oz). Sin MSG. No contiene trigo. Auténtico jamaicano."
     }
   ]
 }

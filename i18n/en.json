@@ -297,6 +297,34 @@
       "name": "Jerk Seasoning",
       "category": "seasonings",
       "description": "Bold, smoky, and unmistakably Jamaican. A flavorful blend of herbs and spices designed to deliver the classic jerk taste that pairs perfectly with chicken, pork, seafood, and vegetables.<br><br><strong>Product Details:</strong> Net weight 226 g (8 oz). No MSG. Contains no wheat. Authentic Jamaican."
+    },
+    {
+      "id": "jamaican-curry-seasoning",
+      "image": "img/curryJamaicano.png",
+      "name": "Jamaican Curry Seasoning",
+      "category": "seasonings",
+      "description": "Rich, aromatic, and packed with authentic island flavor. A traditional Jamaican curry blend crafted to bring warmth, depth, and vibrant color to meats, seafood, and vegetables.<br><br><strong>Product Details:</strong> Net weight 170 g (6 oz). No MSG. Contains no wheat. Authentic Jamaican."
+    },
+    {
+      "id": "oxtail-seasoning",
+      "image": "img/Oxtail.png",
+      "name": "Oxtail Seasoning",
+      "category": "seasonings",
+      "description": "Savory, rich, and full of authentic Caribbean flavor. Specially blended to enhance the deep, hearty taste of oxtail and other slow-cooked dishes, bringing traditional Jamaican flavor to every meal.<br><br><strong>Product Details:</strong> Net weight 226 g (8 oz). No MSG. Contains no wheat. Authentic Jamaican."
+    },
+    {
+      "id": "hot-indian-curry-seasoning",
+      "image": "img/CurryIndio.png",
+      "name": "Hot Indian Curry Seasoning",
+      "category": "seasonings",
+      "description": "Bold, spicy, and full of authentic island flavor. Crafted with a blend of aromatic spices and cayenne pepper to deliver a rich and vibrant taste that enhances meats, seafood, and vegetables.<br><br><strong>Product Details:</strong> Net weight 170 g (6 oz). No MSG. Contains no wheat. Authentic Jamaican."
+    },
+    {
+      "id": "pork-seasoning",
+      "image": "img/Pork.png",
+      "name": "Pork Seasoning",
+      "category": "seasonings",
+      "description": "Robust, savory, and full of authentic island flavor. A carefully balanced blend of herbs and spices specially crafted to enhance pork dishes and bring traditional Jamaican taste to every meal.<br><br><strong>Product Details:</strong> Net weight 226 g (8 oz). No MSG. Contains no wheat. Authentic Jamaican."
     }
   ]
 }
