@@ -95,7 +95,7 @@
     "note": "Dirección: 5712 SW 25TH STREET, WEST PARK, FL 33023 | Teléfono: Tel:(954)-864-9057 | Email: spaintownimports@gmail.com"
   },
   "products": [
-     {
+    {
       "id": "hardough-bread",
       "image": "img/PanBlanco2.png",
       "name": "Pan Hardough",
@@ -104,7 +104,7 @@
     },
     {
       "id": "whole-wheat-bread",
-      "image": "img/Whole2.jpeg",
+      "image": "img/Whole2.png",
       "name": "Pan integral",
       "category": "breads",
       "description": "Simple, equilibrado y satisfactorio. Pan integral suave, con textura ligera y un sabor lleno de cuerpo. Un pan de todos los días que encaja perfectamente con cualquier comida.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1.5 oz (43 g). Calorías 120. Grasa total 1 g (2%), grasa saturada 0 g (0%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 230 mg (10%). Carbohidratos totales 23 g (8%), fibra dietética 1 g (4%), azúcares totales 2 g (incluye 2 g de azúcares añadidos). Proteína 4 g. Vitamina D 0 mcg, calcio 80 mg (6%), hierro 1.65 mg (8%), potasio 42 mg (0%)."
@@ -290,6 +290,13 @@
       "name": "Curry Powder Spicy",
       "category": "seasonings",
       "description": "Intenso, rico y lleno de profundidad. Creado para aportar un sabor auténtico que se mantiene en todo el plato.<br><br><strong>Ingredientes:</strong> Cúrcuma, cilantro, paprika, achiote, mostaza y especias.<br><br><strong>Modo de empleo:</strong> Utilice aproximadamente 1 oz de curry por cada 1 lb de carne, pescado o vegetales. En una cacerola, caliente 1 cucharada de aceite, añada el curry y cocine brevemente. Agregue la carne o el pescado sazonado y cocine, añadiendo un poco de agua o vino para preparar una salsa sabrosa. Sirva con arroz blanco hervido y ensalada. Puede acompañarse con chutney, mango o piña.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 oz. Aproximadamente 80 porciones por envase. Calorías 13. Grasa total 4.9 g (7.5%), grasa trans 0 g, grasa saturada 0 g, colesterol 0 mg, sodio 0 mg, carbohidratos totales 17.5 g (5.8%), fibra dietética 3.3 g, azúcares 0 g, proteína 3.4 g. Vitamina A 0%, vitamina C 0%, calcio 30%, hierro 15%.<br><br><strong>Detalles del producto:</strong> Peso neto 80 oz (5 lb). Auténtico jamaicano. Producto de Jamaica."
+    },
+    {
+      "id": "jerk-seasoning",
+      "image": "img/AliñoJ.png",
+      "name": "Jerk Seasoning",
+      "category": "seasonings",
+      "description": "Intenso, ahumado e inconfundiblemente jamaicano. Una sabrosa mezcla de hierbas y especias que aporta el auténtico sabor jerk a carnes, aves, pescados y vegetales.<br><br><strong>Detalles del producto:</strong> Peso neto 226 g (8 oz). Sin MSG. No contiene trigo. Auténtico jamaicano."
     }
   ]
 }

@@ -104,7 +104,7 @@
     },
     {
       "id": "whole-wheat-bread",
-      "image": "img/Whole2.jpeg",
+      "image": "img/Whole2.png",
       "name": "Whole Wheat Bread",
       "category": "breads",
       "description": "Simple, balanced, and satisfying.Soft whole wheat bread with a smooth texture and hearty flavor. Easy, everyday bread that fits into whatever you’re making<br><br><strong>Product Details:</strong> Serving Size 1.5oz (43g). Calories 120. Total Fat 1g (2%), Saturated Fat 0g (0%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 230mg (10%). Total Carbohydrate 23g (8%), Dietary Fiber 1g (4%), Total Sugars 2g (includes 2g added sugars). Protein 4g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1.65mg (8%), Potassium 42mg (0%)."
@@ -123,7 +123,6 @@
       "category": "breads",
       "description": "Moist, rich, and naturally sweet.Made with ripe bananas for that soft texture and full flavor. Feels like something you grab in the morning without thinking twice<br><br><strong>Product Details:</strong> Serving Size 85g. Calories 350. Total Fat 33g (41%), Saturated Fat 7g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 280mg (12%). Total Carbohydrate 11g (4%), Dietary Fiber 1g (4%), Total Sugars 7g (includes added sugars). Protein 3g. Vitamin D 0mcg, Calcium 7mg, Iron 1mg, Potassium 120mg."
     },
-    
     {
       "id": "coconut-bread",
       "image": "img/coconutMejorada.png",
@@ -179,7 +178,7 @@
       "name": "Ginger Cake",
       "category": "bunsCakes",
       "description": "Warm, soft, and nicely spiced.A gentle ginger kick with a soft texture—easy to enjoy, especially when you just want something simple and good.<br><br><strong>Product Details:</strong> Serving Size 1 slice (142g). Calories 580. Total Fat 26g (33%), Saturated Fat 7g (35%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 200mg (9%). Total Carbohydrate 79g (29%), Dietary Fiber 2g (7%), Total Sugars 39g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 60mg (4%), Iron 2mg (10%), Potassium 4%."
-    },    
+    },
     {
       "id": "raisin-bread",
       "image": "img/raising mejorada.png",
@@ -207,7 +206,7 @@
       "name": "Tutti Fruitti",
       "category": "snacks",
       "description": "Colorful, sweet, and full of vibes.Soft bread with bits of candied fruit throughout—one of those nostalgic treats that takes you right back.<br><br><strong>Product Details:</strong> Serving Size 1 package (170g). Calories 580. Total Fat 33g (51%), Saturated Fat 13g (65%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 260mg (11%). Total Carbohydrate 70g (25%), Dietary Fiber 2g (7%), Total Sugars 37g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 80mg (6%), Iron 1mg (6%), Potassium 120mg (2%)."
-    },  
+    },
     {
       "id": "banana-bulla-4-pax",
       "image": "img/bbb2.png",
@@ -284,13 +283,20 @@
       "name": "Hot Jerk Seasoning",
       "category": "seasonings",
       "description": "Real spice. Real heat.This one doesn’t play—proper heat with that deep, smoky flavor.<br><br><strong>Suggested use:</strong> For each pound of meat, fish, or poultry, use 2-3 teaspoons of seasoning. Rub in and leave to marinate for about two hours, then grill, roast, fry, or use for stew. Can also be used on vegetables with scrambled eggs and soups.<br><br><strong>Storage:</strong> Do not use if the band around the cap is missing or broken. Store in a cool, dry place. Refrigerate after opening.<br><br><strong>Ingredients:</strong> Scallion, hot pepper, salt, spices, acetic acid, thyme, 0.033% potassium sorbate as preservative.<br><br><strong>Product Details:</strong> Serving size 1 oz (28 g). About 136 servings per container. Calories 5. Total fat 0 g, saturated fat 0 g, trans fat 0 g, cholesterol 0 mg, sodium 550 mg (22%), total carbohydrate 0 g, dietary fiber 0 g, sugars 0 g, protein 0 g. Vitamin A 0%, vitamin C 0%, calcium 2%, iron 10%.<br><br><strong>Product Details:</strong> Net weight 136 oz (8.5 lbs) / 3.85 kg. Authentic Jamaican. Product of Jamaica."
-    }, 
+    },
     {
       "id": "curry-powder-spicy",
       "image": "img/curryG.png",
       "name": "Curry Powder Spicy",
       "category": "seasonings",
       "description": "Bold, rich, and full of depth.Built for real flavor—the kind that carries through the whole dish.<br><br><strong>Ingredients:</strong> Turmeric, coriander, paprika, annatto, mustard, spices.<br><br><strong>Directions for use:</strong> Use approximately 1 oz curry powder per 1 lb of meat, fish, or vegetables. In a saucepan, heat 1 tablespoon of oil, add curry powder, and cook briefly. Add seasoned meat or fish and cook over heat, adding a little water or wine to make a tasty gravy. Serve with plain boiled rice and tossed salad. Can be accompanied by chutney, mango, or pineapple.<br><br><strong>Product Details:</strong> Serving size 1 oz. About 80 servings per container. Calories 13. Total fat 4.9 g (7.5%), trans fat 0 g, saturated fat 0 g, cholesterol 0 mg, sodium 0 mg, total carbohydrate 17.5 g (5.8%), dietary fiber 3.3 g, sugars 0 g, protein 3.4 g. Vitamin A 0%, vitamin C 0%, calcium 30%, iron 15%.<br><br><strong>Product Details:</strong> Net weight 80 oz (5 lbs). Authentic Jamaican. Product of Jamaica."
+    },
+    {
+      "id": "jerk-seasoning",
+      "image": "img/AliñoJ.png",
+      "name": "Jerk Seasoning",
+      "category": "seasonings",
+      "description": "Bold, smoky, and unmistakably Jamaican. A flavorful blend of herbs and spices designed to deliver the classic jerk taste that pairs perfectly with chicken, pork, seafood, and vegetables.<br><br><strong>Product Details:</strong> Net weight 226 g (8 oz). No MSG. Contains no wheat. Authentic Jamaican."
     }
   ]
 }
