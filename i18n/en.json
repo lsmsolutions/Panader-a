@@ -118,14 +118,14 @@
     },
     {
       "id": "banana-bread",
-      "image": "img/BB.png",
+      "image": "img/BB2.png",
       "name": "Banana Bread",
       "category": "breads",
       "description": "Moist, rich, and naturally sweet.Made with ripe bananas for that soft texture and full flavor. Feels like something you grab in the morning without thinking twice<br><br><strong>Product Details:</strong> Serving Size 85g. Calories 350. Total Fat 33g (41%), Saturated Fat 7g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 280mg (12%). Total Carbohydrate 11g (4%), Dietary Fiber 1g (4%), Total Sugars 7g (includes added sugars). Protein 3g. Vitamin D 0mcg, Calcium 7mg, Iron 1mg, Potassium 120mg."
     },
     {
       "id": "coconut-bread",
-      "image": "img/coconutMejorada.png",
+      "image": "img/coconut2.png",
       "name": "Coconut Bread",
       "category": "breads",
       "description": "Soft, slightly sweet, and full of island flavor.Moist with that real coconut taste—one of those breads that doesn’t need much, just a quiet moment and a good cup of coffee.<br><br><strong>Product Details:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
@@ -146,7 +146,7 @@
     },
     {
       "id": "corn-bread",
-      "image": "img/cornMejorada.png",
+      "image": "img/corn2.png",
       "name": "Corn Bread",
       "category": "breads",
       "description": "Golden, soft, and just the right sweetness.Warm, simple, and familiar. The kind of thing that always finds its place on the table..<br><br><strong>Product Details:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
@@ -181,14 +181,14 @@
     },
     {
       "id": "raisin-bread",
-      "image": "img/raising mejorada.png",
+      "image": "img/raising2.png",
       "name": "Raisin Bread",
       "category": "breads",
       "description": "Soft with a touch of sweetness.Studded with raisins and full of flavor—especially nice when it’s warmed up a bit and enjoyed slow<br><br><strong>Product Details:</strong> Serving Size 1/3 loaf (114g). Calories 180. Total Fat 3g (4%), Saturated Fat 1g (4%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 213mg (9%). Total Carbohydrate 35g (12%), Dietary Fiber 2g (6%), Total Sugars 7g (includes 3g added sugars). Protein 5g. Calcium 50mg (5%), Iron 0.8mg (4%), Potassium 130mg (2%)."
     },
     {
       "id": "spice-bun-28oz",
-      "image": "img/SpiceB_P.png",
+      "image": "img/spice2.png",
       "name": "Spice Bun 28 oz",
       "category": "breads",
       "description": "Sweet, spiced, and full of tradition.Rich with warm spices and that signature flavor you know. Slice it up with cheese and it’s already doing what it needs to do.<br><br><strong>Product Details:</strong> Serving size 53g per 13mm slice. About 15 servings. Calories 160. Calories from fat 15. Total Fat 1.5g (2%), Saturated Fat 0g, Trans Fat 0g. Cholesterol 0mg (0%). Sodium 90mg (4%). Total Carbohydrate 34g (11%), Dietary Fiber less than 1g (3%), Total Sugars 16g. Protein 3g. Polyunsaturated Fat 0g, Monounsaturated Fat 0.5g. Vitamin A 0%, Vitamin C 0%, Iron 8%, Calcium 2%.<br><br><strong>Product Details:</strong> Net weight 794g / 28oz. Bromate free. Contains wheat and soy."
@@ -230,21 +230,21 @@
     },
     {
       "id": "bammy-sticks",
-      "image": "img/BammyS.png",
+      "image": "img/BammyS2.png",
       "name": "Bammy Sticks",
       "category": "traditional",
       "description": "Authentic and versatile.Made from cassava the traditional way. Once there’s escovitch or fried fish on the plate, it finds its place right beside it.<br><br><strong>Product Details:</strong> Net weight 14 oz (397g). Pack size 10 x 397g x 24. Authentic Jamaican. Best quality guaranteed."
     },
     {
       "id": "mini-bammy",
-      "image": "img/BammyRedondo.png",
+      "image": "img/BammyRedondo2.png",
       "name": "Mini Bammy",
       "category": "traditional",
       "description": "Same tradition, smaller size.Easy to serve, easy to enjoy—same authentic taste in a more convenient form.<br><br><strong>Product Details:</strong> Net weight 14 oz (397g). Authentic Jamaican. Best quality guaranteed."
     },
     {
       "id": "pan-de-fruta",
-      "image": "img/PanFruta.jpeg",
+      "image": "img/Pan_Fruta.png",
       "name": "Christmas Bun",
       "category": "traditional",
       "description": "Soft, fruity, and full of flavor. A classic fruit bun with that naturally sweet taste that always feels familiar.<br><br><strong>Product Details:</strong> Net Weight 36 oz (1020g)."
