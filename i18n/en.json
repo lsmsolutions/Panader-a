@@ -118,14 +118,14 @@
     },
     {
       "id": "banana-bread",
-      "image": "img/BB2.png",
+      "image": "img/BB3.png",
       "name": "Banana Bread",
       "category": "breads",
       "description": "Moist, rich, and naturally sweet.Made with ripe bananas for that soft texture and full flavor. Feels like something you grab in the morning without thinking twice<br><br><strong>Product Details:</strong> Serving Size 85g. Calories 350. Total Fat 33g (41%), Saturated Fat 7g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 280mg (12%). Total Carbohydrate 11g (4%), Dietary Fiber 1g (4%), Total Sugars 7g (includes added sugars). Protein 3g. Vitamin D 0mcg, Calcium 7mg, Iron 1mg, Potassium 120mg."
     },
     {
       "id": "coconut-bread",
-      "image": "img/coconut2.png",
+      "image": "img/coconut3.png",
       "name": "Coconut Bread",
       "category": "breads",
       "description": "Soft, slightly sweet, and full of island flavor.Moist with that real coconut taste—one of those breads that doesn’t need much, just a quiet moment and a good cup of coffee.<br><br><strong>Product Details:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
@@ -146,21 +146,21 @@
     },
     {
       "id": "corn-bread",
-      "image": "img/corn2.png",
+      "image": "img/corn3.png",
       "name": "Corn Bread",
       "category": "breads",
       "description": "Golden, soft, and just the right sweetness.Warm, simple, and familiar. The kind of thing that always finds its place on the table..<br><br><strong>Product Details:</strong> Serving Size 4oz (113g). Calories 140. Total Fat 2.5g (4%), Saturated Fat 1g (5%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 150mg (6%). Total Carbohydrate 28g (10%), Dietary Fiber 3g (12%), Total Sugars 9g (includes 4g added sugars). Protein 4g. Vitamin A 2%, Vitamin C 0%, Iron 4%, Calcium 4%."
     },
     {
       "id": "jamaican-fruit-cake",
-      "image": "img/FruitCake2.png",
+      "image": "img/FruitCake4.png",
       "name": "Jamaican Fruit Cake",
       "category": "bunsCakes",
       "description": "Rich, dense, and full of real flavor.Packed with fruits and spices for that deep, unmistakable taste. The kind of cake that shows up for celebrations and doesn’t disappoint<br><br><strong>Product Details:</strong> Serving Size 1 slice (122g). Calories 350. Total Fat 33g (41%), Saturated Fat 14g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 210mg (9%). Total Carbohydrate 70g (26%), Dietary Fiber 3g (6%), Total Sugars 39g (includes added sugars). Protein 8g. Vitamin D 0mcg, Calcium 70mg (6%), Iron 3mg (16%), Potassium 2%."
     },
     {
       "id": "rum-raisin-cake",
-      "image": "img/RumRaisin2.png",
+      "image": "img/RR2.png",
       "name": "Rum & Raisin Cake",
       "category": "bunsCakes",
       "description": "Bold flavor with a smooth finish.Moist, rich, and full-bodied with that classic combination done right.<br><br><strong>Product Details:</strong> Pack size 5 oz x 50."

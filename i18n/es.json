@@ -118,14 +118,14 @@
     },
     {
       "id": "banana-bread",
-      "image": "img/BB2.png",
+      "image": "img/BB3.png",
       "name": "Pan de banana",
       "category": "breads",
       "description": "Húmedo, rico y naturalmente dulce. Elaborado con bananas maduras para lograr una textura suave y todo su sabor. Es de esos panes que apetece disfrutar por la mañana sin pensarlo dos veces.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 85 g. Calorías 350. Grasa total 33 g (41%), grasa saturada 7 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 280 mg (12%). Carbohidratos totales 11 g (4%), fibra dietética 1 g (4%), azúcares totales 7 g (incluye azúcares añadidos). Proteína 3 g. Vitamina D 0 mcg, calcio 7 mg, hierro 1 mg, potasio 120 mg."
     },
     {
       "id": "coconut-bread",
-      "image": "img/coconut2.png",
+      "image": "img/coconut3.png",
       "name": "Pan de coco",
       "category": "breads",
       "description": "Suave, ligeramente dulce y lleno de sabor isleño. Húmedo y con auténtico sabor a coco; uno de esos panes que no necesita mucho, solo un momento tranquilo y una buena taza de café.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 4 oz (113 g). Calorías 140. Grasa total 2.5 g (4%), grasa saturada 1 g (5%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 150 mg (6%). Carbohidratos totales 28 g (10%), fibra dietética 3 g (12%), azúcares totales 9 g (incluye 4 g de azúcares añadidos). Proteína 4 g. Vitamina A 2%, vitamina C 0%, hierro 4%, calcio 4%."
@@ -146,21 +146,21 @@
     },
     {
       "id": "corn-bread",
-      "image": "img/corn2.png",
+      "image": "img/corn3.png",
       "name": "Pan de maíz",
       "category": "breads",
       "description": "Dorado, suave y con el dulzor justo. Cálido, sencillo y de los que siempre encuentran su lugar en la mesa.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 4 oz (113 g). Calorías 140. Grasa total 2.5 g (4%), grasa saturada 1 g (5%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 150 mg (6%). Carbohidratos totales 28 g (10%), fibra dietética 3 g (12%), azúcares totales 9 g (incluye 4 g de azúcares añadidos). Proteína 4 g. Vitamina A 2%, vitamina C 0%, hierro 4%, calcio 4%."
     },
     {
       "id": "jamaican-fruit-cake",
-      "image": "img/FruitCake2.png",
+      "image": "img/FruitCake4.png",
       "name": "Pastel jamaicano de frutas",
       "category": "bunsCakes",
       "description": "Rico, denso y lleno de sabor auténtico. Elaborado con frutas y especias para lograr ese sabor profundo e inconfundible. El tipo de pastel que aparece en las celebraciones y nunca decepciona.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (122 g). Calorías 350. Grasa total 33 g (41%), grasa saturada 14 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 210 mg (9%). Carbohidratos totales 70 g (26%), fibra dietética 3 g (6%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 8 g. Vitamina D 0 mcg, calcio 70 mg (6%), hierro 3 mg (16%), potasio 2%."
     },
     {
       "id": "rum-raisin-cake",
-      "image": "img/RumRaisin2.png",
+      "image": "img/RR2.png",
       "name": "Pastel de ron y pasas",
       "category": "bunsCakes",
       "description": "Sabor intenso con un acabado suave. Húmedo, rico y lleno de carácter, con esa clásica combinación perfectamente equilibrada.<br><br><strong>Detalles del producto:</strong> Formato 5 oz x 50."
