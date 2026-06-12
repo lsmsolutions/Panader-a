@@ -153,28 +153,28 @@
     },
     {
       "id": "jamaican-fruit-cake",
-      "image": "img/FruitC_SF.png",
+      "image": "img/FruitCake2.png",
       "name": "Jamaican Fruit Cake",
       "category": "bunsCakes",
       "description": "Rich, dense, and full of real flavor.Packed with fruits and spices for that deep, unmistakable taste. The kind of cake that shows up for celebrations and doesn’t disappoint<br><br><strong>Product Details:</strong> Serving Size 1 slice (122g). Calories 350. Total Fat 33g (41%), Saturated Fat 14g (33%), Trans Fat 1g. Cholesterol 50mg (31%). Sodium 210mg (9%). Total Carbohydrate 70g (26%), Dietary Fiber 3g (6%), Total Sugars 39g (includes added sugars). Protein 8g. Vitamin D 0mcg, Calcium 70mg (6%), Iron 3mg (16%), Potassium 2%."
     },
     {
       "id": "rum-raisin-cake",
-      "image": "img/RumRaisin.png",
+      "image": "img/RumRaisin2.png",
       "name": "Rum & Raisin Cake",
       "category": "bunsCakes",
       "description": "Bold flavor with a smooth finish.Moist, rich, and full-bodied with that classic combination done right.<br><br><strong>Product Details:</strong> Pack size 5 oz x 50."
     },
     {
       "id": "carrot-cake",
-      "image": "img/CarrotCake.png",
+      "image": "img/CarrotCake2.png",
       "name": "Carrot Cake",
       "category": "bunsCakes",
       "description": "Soft, sweet, and warmly spiced with that familiar carrot cake flavor. A convenient 4 oz cake made for easy retail display and everyday snacking.<br><br><strong>Product Details:</strong> Serving Size 1 package (142g). Calories 350. Total Fat 32g (41%), Saturated Fat 7g (33%), Trans Fat 0g. Cholesterol 50mg (31%). Sodium 470mg (20%). Total Carbohydrate 70g (28%), Dietary Fiber 2g (8%), Total Sugars 37g (includes 37g added sugars, 74%). Protein 3g. Vitamin D 0.4mcg (4%), Calcium 70mg (6%), Iron 2.5mg (16%), Potassium 120mg (2%).<br><br><strong>Product Details:</strong> Net weight 4 oz. Pack size 4 oz x 50. Contains wheat and soy."
     },
     {
       "id": "ginger-cake",
-      "image": "img/GingerMejorada .png",
+      "image": "img/GingerCake2.png",
       "name": "Ginger Cake",
       "category": "bunsCakes",
       "description": "Warm, soft, and nicely spiced.A gentle ginger kick with a soft texture—easy to enjoy, especially when you just want something simple and good.<br><br><strong>Product Details:</strong> Serving Size 1 slice (142g). Calories 580. Total Fat 26g (33%), Saturated Fat 7g (35%), Trans Fat 0g. Cholesterol 0mg (0%). Sodium 200mg (9%). Total Carbohydrate 79g (29%), Dietary Fiber 2g (7%), Total Sugars 39g (includes added sugars). Protein 6g. Vitamin D 0mcg, Calcium 60mg (4%), Iron 2mg (10%), Potassium 4%."
@@ -188,14 +188,14 @@
     },
     {
       "id": "spice-bun-28oz",
-      "image": "img/spice2.png",
+      "image": "img/spice2A.png",
       "name": "Spice Bun 28 oz",
       "category": "breads",
       "description": "Sweet, spiced, and full of tradition.Rich with warm spices and that signature flavor you know. Slice it up with cheese and it’s already doing what it needs to do.<br><br><strong>Product Details:</strong> Serving size 53g per 13mm slice. About 15 servings. Calories 160. Calories from fat 15. Total Fat 1.5g (2%), Saturated Fat 0g, Trans Fat 0g. Cholesterol 0mg (0%). Sodium 90mg (4%). Total Carbohydrate 34g (11%), Dietary Fiber less than 1g (3%), Total Sugars 16g. Protein 3g. Polyunsaturated Fat 0g, Monounsaturated Fat 0.5g. Vitamin A 0%, Vitamin C 0%, Iron 8%, Calcium 2%.<br><br><strong>Product Details:</strong> Net weight 794g / 28oz. Bromate free. Contains wheat and soy."
     },
     {
       "id": "spice-bun",
-      "image": "img/Spice mejorada.png",
+      "image": "img/SpiceBun.png",
       "name": "Spice Bun",
       "category": "bunsCakes",
       "description": "Soft and aromatic spice bun with a warm blend of spices and a slightly sweet, rich flavor. Perfect for breakfast, snacks, or enjoying with butter or cheese.<br><br><strong>Product Details:</strong> Net Weight 4 oz (114g)."

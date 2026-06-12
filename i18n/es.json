@@ -153,28 +153,28 @@
     },
     {
       "id": "jamaican-fruit-cake",
-      "image": "img/FruitC_SF.png",
+      "image": "img/FruitCake2.png",
       "name": "Pastel jamaicano de frutas",
       "category": "bunsCakes",
       "description": "Rico, denso y lleno de sabor auténtico. Elaborado con frutas y especias para lograr ese sabor profundo e inconfundible. El tipo de pastel que aparece en las celebraciones y nunca decepciona.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (122 g). Calorías 350. Grasa total 33 g (41%), grasa saturada 14 g (33%), grasa trans 1 g. Colesterol 50 mg (31%). Sodio 210 mg (9%). Carbohidratos totales 70 g (26%), fibra dietética 3 g (6%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 8 g. Vitamina D 0 mcg, calcio 70 mg (6%), hierro 3 mg (16%), potasio 2%."
     },
     {
       "id": "rum-raisin-cake",
-      "image": "img/RumRaisin.png",
+      "image": "img/RumRaisin2.png",
       "name": "Pastel de ron y pasas",
       "category": "bunsCakes",
       "description": "Sabor intenso con un acabado suave. Húmedo, rico y lleno de carácter, con esa clásica combinación perfectamente equilibrada.<br><br><strong>Detalles del producto:</strong> Formato 5 oz x 50."
     },
     {
       "id": "carrot-cake",
-      "image": "img/CarrotCake.png",
+      "image": "img/CarrotCake2.png",
       "name": "Carrot Cake",
       "category": "bunsCakes",
       "description": "Suave, dulce y con ese sabor casero de zanahoria y especias. Un pastel práctico de 4 oz, perfecto para vender como porción individual sin perder el toque tradicional.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 paquete (142 g). Calorías 350. Grasa total 32 g (41%), grasa saturada 7 g (33%), grasa trans 0 g. Colesterol 50 mg (31%). Sodio 470 mg (20%). Carbohidratos totales 70 g (28%), fibra dietética 2 g (8%), azúcares totales 37 g (incluye 37 g de azúcares añadidos, 74%). Proteína 3 g. Vitamina D 0.4 mcg (4%), calcio 70 mg (6%), hierro 2.5 mg (16%), potasio 120 mg (2%).<br><br><strong>Detalles del producto:</strong> Peso neto 4 oz. Formato 4 oz x 50. Contiene trigo y soya."
     },
     {
       "id": "ginger-cake",
-      "image": "img/GingerMejorada .png",
+      "image": "img/GingerCake2.png",
       "name": "Pastel de jengibre",
       "category": "bunsCakes",
       "description": "Cálido, suave y delicadamente especiado. Un toque de jengibre equilibrado con una textura tierna; perfecto cuando apetece algo sencillo y realmente bueno.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 1 rebanada (142 g). Calorías 580. Grasa total 26 g (33%), grasa saturada 7 g (35%), grasa trans 0 g. Colesterol 0 mg (0%). Sodio 200 mg (9%). Carbohidratos totales 79 g (29%), fibra dietética 2 g (7%), azúcares totales 39 g (incluye azúcares añadidos). Proteína 6 g. Vitamina D 0 mcg, calcio 60 mg (4%), hierro 2 mg (10%), potasio 4%."
@@ -188,14 +188,14 @@
     },
     {
       "id": "spice-bun-28oz",
-      "image": "img/spice2.png",
+      "image": "img/spice2A.png",
       "name": "Spice Bun 28 oz",
       "category": "breads",
       "description": "Dulce, especiado y lleno de tradición. Rico en especias cálidas y con ese sabor característico que ya conoces. Córtalo, acompáñalo con queso y hará exactamente lo que esperas.<br><br><strong>Detalles del producto:</strong> Tamaño de porción 53 g por rebanada de 13 mm. Aproximadamente 15 porciones. Calorías 160. Calorías de grasa 15. Grasa total 1.5 g (2%), grasa saturada 0 g, grasa trans 0 g. Colesterol 0 mg (0%). Sodio 90 mg (4%). Carbohidratos totales 34 g (11%), fibra dietética menos de 1 g (3%), azúcares totales 16 g. Proteína 3 g. Grasa poliinsaturada 0 g, grasa monoinsaturada 0.5 g. Vitamina A 0%, vitamina C 0%, hierro 8%, calcio 2%.<br><br><strong>Detalles del producto:</strong> Peso neto 794 g / 28 oz. Libre de bromato. Contiene trigo y soya."
     },
     {
       "id": "spice-bun",
-      "image": "img/Spice mejorada.png",
+      "image": "img/SpiceBun.png",
       "name": "Spice Bun",
       "category": "bunsCakes",
       "description": "Suave y aromático, con una cálida mezcla de especias y un sabor ligeramente dulce y lleno de carácter. Perfecto para desayunos, meriendas o acompañado con mantequilla o queso.<br><br><strong>Detalles del producto:</strong> Peso neto 4 oz (114 g)."
